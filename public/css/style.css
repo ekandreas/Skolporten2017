@@ -536,7 +536,7 @@ dl.row > dd + dt {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: red;
+  background-color: #FAFAFA;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all .2s ease-in-out;
@@ -1307,7 +1307,7 @@ pre {
   .table tbody + tbody {
     border-top: 2px solid #eceeef; }
   .table .table {
-    background-color: red; }
+    background-color: #FAFAFA; }
 
 .table-sm th,
 .table-sm td {
@@ -2721,7 +2721,7 @@ tbody.collapse.in {
   .nav-tabs .nav-item.open .nav-link:focus,
   .nav-tabs .nav-item.open .nav-link:hover {
     color: #FAFAFA;
-    background-color: red;
+    background-color: #FAFAFA;
     border-color: #ddd #ddd transparent; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
@@ -4911,7 +4911,7 @@ h6,
   text-transform: uppercase; }
 
 body {
-  background-color: red;
+  background-color: #FAFAFA;
   color: #666666; }
 
 a {
