@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.5"
+    "bootstrap": "^4.0.0-alpha.5",
+    "node-sass": "latest",
+    "nodemon": "latest"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:sass": "node-sass src/sass/main.scss public/css/style.css",
-    "watch:sass": "node-sass -w src/sass/main.scss public/css/style.css"
+    "watch:sass": "nodemon --watch src -e scss -x \"npm run build:sass\""
   },
   "author": "",
   "license": "ISC"

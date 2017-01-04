@@ -4969,7 +4969,7 @@ header {
   .navbar.level-0 {
     background-color: #1889B1;
     font-size: 0.85rem; }
-    @media (max-width: 576p990pxx) {
+    @media (max-width: 990px) {
       .navbar.level-0 {
         padding: 10px 0px; } }
     .navbar.level-0 a {

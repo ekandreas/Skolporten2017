@@ -1,7 +1,5 @@
 header {
   background-color: #fff;
-  // box-shadow: 30px 30px 30px red;
-  // @include box-shadow(0 3px red);
   box-shadow: $header-box-shadow;
   .carousel {
     height: 125px;
@@ -65,7 +63,7 @@ header {
   &.level-0 {
     background-color: #1889B1; //add color to variables
     font-size: $font-size-nav-smaller;
-    @media (max-width: 576p990pxx) {
+    @media (max-width: 990px) {
       padding: 10px 0px;
     }
     a {
