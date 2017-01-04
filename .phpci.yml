@@ -1,0 +1,5 @@
+branch-master:
+    run-option: "after"
+    success:
+        shell:
+            - "vendor/bin/dep deploy production"
