@@ -1,8 +1,5 @@
-setup:
-  composer:
-    action: "update"
 branch-master:
     run-option: "after"
     success:
         shell:
-            - "vendor/bin/dep deploy production"
+            - "rsync -rv . deploy@skolporten.se:/mnt/persist/www/2017.skolporten.se"
