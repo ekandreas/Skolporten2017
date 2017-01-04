@@ -4,4 +4,4 @@ branch-master:
     success:
         shell:
             - 'echo "Current user: $USER"'
-            - 'rsync -rv . deploy@skolporten.se:/mnt/persist/www/2017.skolporten.se'
+            - 'rsync -rve "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" . deploy@skolporten.se:/mnt/persist/www/2017.skolporten.se'
