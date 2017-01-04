@@ -1,0 +1,17 @@
+{
+  "name": "dev.skolporten.se",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass": "node-sass src/sass/main.scss public/css/style.css",
+    "watch:sass": "node-sass -w src/sass/main.scss public/css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
