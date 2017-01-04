@@ -2,4 +2,5 @@ branch-master:
     run-option: "after"
     success:
         shell:
-            - "rsync -rv . deploy@skolporten.se:/mnt/persist/www/2017.skolporten.se"
+            - 'echo "$USER"'
+            - 'rsync -rv . deploy@skolporten.se:/mnt/persist/www/2017.skolporten.se'
