@@ -27,8 +27,11 @@ a {
 }
 
 hr, .divider {
-  background: #303729;
+  background:rgba(48,55,41,0.07);
   height: 1px;
   margin: 40px 0;
-  opacity: 0.1;
+}
+
+.news-main {
+  margin-bottom: 30px;
 }
