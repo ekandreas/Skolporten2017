@@ -267,7 +267,7 @@ body {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #373a3c;
+  color: #d8d8d8;
   background-color: #FAFAFA; }
 
 [tabindex="-1"]:focus {
@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.1;
   color: inherit; }
 
@@ -583,7 +583,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 90%;
-  color: #373a3c; }
+  color: #d8d8d8; }
   pre code {
     padding: 0;
     font-size: inherit;
@@ -1385,19 +1385,19 @@ pre {
 
 .thead-inverse th {
   color: #fff;
-  background-color: #373a3c; }
+  background-color: #d8d8d8; }
 
 .thead-default th {
-  color: #FAFAFA;
+  color: #999999;
   background-color: #eceeef; }
 
 .table-inverse {
   color: #eceeef;
-  background-color: #373a3c; }
+  background-color: #d8d8d8; }
   .table-inverse th,
   .table-inverse td,
   .table-inverse thead th {
-    border-color: #FAFAFA; }
+    border-color: #999999; }
   .table-inverse.table-bordered {
     border: 0; }
 
@@ -1443,7 +1443,7 @@ pre {
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
   line-height: 1.25;
-  color: #FAFAFA;
+  color: #999999;
   background-color: #fff;
   background-image: none;
   background-clip: padding-box;
@@ -1453,7 +1453,7 @@ pre {
     background-color: transparent;
     border: 0; }
   .form-control:focus {
-    color: #FAFAFA;
+    color: #999999;
     background-color: #fff;
     border-color: #66afe9;
     outline: none; }
@@ -1470,7 +1470,7 @@ select.form-control:not([size]):not([multiple]) {
   height: calc(2.5rem - 2px); }
 
 select.form-control:focus::-ms-value {
-  color: #FAFAFA;
+  color: #999999;
   background-color: #fff; }
 
 .form-control-file,
@@ -1750,20 +1750,20 @@ fieldset[disabled] a.btn {
     border-color: #38A7CE; }
 
 .btn-secondary {
-  color: #373a3c;
+  color: #d8d8d8;
   background-color: #fff;
   border-color: #ccc; }
   .btn-secondary:hover {
-    color: #373a3c;
+    color: #d8d8d8;
     background-color: #e6e6e6;
     border-color: #adadad; }
   .btn-secondary:focus, .btn-secondary.focus {
-    color: #373a3c;
+    color: #d8d8d8;
     background-color: #e6e6e6;
     border-color: #adadad; }
   .btn-secondary:active, .btn-secondary.active,
   .open > .btn-secondary.dropdown-toggle {
-    color: #373a3c;
+    color: #d8d8d8;
     background-color: #e6e6e6;
     border-color: #adadad;
     background-image: none; }
@@ -1771,7 +1771,7 @@ fieldset[disabled] a.btn {
     .open > .btn-secondary.dropdown-toggle:hover,
     .open > .btn-secondary.dropdown-toggle:focus,
     .open > .btn-secondary.dropdown-toggle.focus {
-      color: #373a3c;
+      color: #d8d8d8;
       background-color: #d4d4d4;
       border-color: #8c8c8c; }
   .btn-secondary.disabled:focus, .btn-secondary.disabled.focus, .btn-secondary:disabled:focus, .btn-secondary:disabled.focus {
@@ -2187,7 +2187,7 @@ tbody.collapse.in {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #373a3c;
+  color: #d8d8d8;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -2207,13 +2207,13 @@ tbody.collapse.in {
   padding: 3px 1.5rem;
   clear: both;
   font-weight: normal;
-  color: #373a3c;
+  color: #d8d8d8;
   text-align: inherit;
   white-space: nowrap;
   background: none;
   border: 0; }
   .dropdown-item:focus, .dropdown-item:hover {
-    color: #2b2d2f;
+    color: #cbcbcb;
     text-decoration: none;
     background-color: #f5f5f5; }
   .dropdown-item.active, .dropdown-item.active:focus, .dropdown-item.active:hover {
@@ -2457,7 +2457,7 @@ tbody.collapse.in {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.25;
-  color: #FAFAFA;
+  color: #999999;
   text-align: center;
   background-color: #eceeef;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -2596,7 +2596,7 @@ tbody.collapse.in {
   height: calc(2.5rem - 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
   padding-right: 0.75rem \9;
-  color: #FAFAFA;
+  color: #999999;
   vertical-align: middle;
   background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='#333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
   background-image: none \9;
@@ -2609,7 +2609,7 @@ tbody.collapse.in {
     border-color: #51a7e8;
     outline: none; }
     .custom-select:focus::-ms-value {
-      color: #FAFAFA;
+      color: #999999;
       background-color: #fff; }
   .custom-select:disabled {
     color: #818a91;
@@ -2720,7 +2720,7 @@ tbody.collapse.in {
   .nav-tabs .nav-item.open .nav-link,
   .nav-tabs .nav-item.open .nav-link:focus,
   .nav-tabs .nav-item.open .nav-link:hover {
-    color: #FAFAFA;
+    color: #999999;
     background-color: #FAFAFA;
     border-color: #ddd #ddd transparent; }
   .nav-tabs .dropdown-menu {
@@ -4417,10 +4417,10 @@ a.bg-danger:focus, a.bg-danger:hover {
   background-color: #c9302c !important; }
 
 .bg-inverse {
-  background-color: #373a3c !important; }
+  background-color: #d8d8d8 !important; }
 
 a.bg-inverse:focus, a.bg-inverse:hover {
-  background-color: #1f2021 !important; }
+  background-color: #bfbfbf !important; }
 
 .rounded {
   border-radius: 0.25rem; }
@@ -4828,10 +4828,10 @@ a.text-danger:focus, a.text-danger:hover {
   color: #c9302c !important; }
 
 .text-gray-dark {
-  color: #373a3c !important; }
+  color: #d8d8d8 !important; }
 
 a.text-gray-dark:focus, a.text-gray-dark:hover {
-  color: #1f2021 !important; }
+  color: #bfbfbf !important; }
 
 .text-hide {
   font: 0/0 a;
@@ -4906,7 +4906,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 h6,
 .h6 {
   font-family: "Nunito", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   color: inherit;
   text-transform: uppercase; }
 
@@ -4916,6 +4916,26 @@ body {
 
 a {
   color: #38A7CE; }
+
+.well {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px; }
+
+.section-header {
+  margin: 0 0 20px;
+  font-weight: 800; }
+
+.nav li {
+  display: inline-block; }
+
+hr, .divider {
+  background: #303729;
+  height: 1px;
+  margin: 40px 0;
+  opacity: 0.1; }
 
 header {
   background-color: #fff;
@@ -5103,3 +5123,84 @@ header {
   .navbar-toggleable-xs .navbar-nav .nav-item {
     float: none;
     margin-left: 0; } }
+
+.footer {
+  margin-top: 70px;
+  background: #3d3d3d;
+  padding: 30px 0; }
+  .footer .footer-brand {
+    margin: 0 0 20px;
+    display: inline-block; }
+  .footer p {
+    color: rgba(255, 255, 255, 0.6); }
+  .footer a {
+    color: #fff; }
+  @media (min-width: 990px) {
+    .footer .copy {
+      text-align: right; } }
+  .footer .navbar-social {
+    padding-bottom: 30px;
+    overflow: hidden;
+    display: block; }
+    @media (min-width: 990px) {
+      .footer .navbar-social {
+        float: right; } }
+
+.article-short {
+  margin: 0 0 30px; }
+  .article-short .article-tags {
+    list-style-type: none;
+    margin: 0 5px 0 0;
+    padding: 0;
+    display: inline-block; }
+    .article-short .article-tags .article-tag {
+      display: inline-block;
+      padding: 2px 5px;
+      border-radius: 2px;
+      background-color: #d8d8d8;
+      font-size: 0.875rem; }
+      .article-short .article-tags .article-tag a {
+        color: #666666;
+        font-weight: 500; }
+  .article-short .article-link {
+    color: #999999;
+    font-size: 0.875rem; }
+
+.nav-tabs {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  border-bottom: 0px solid transparent; }
+  .nav-tabs .nav-tab-item-link {
+    padding: 10px 10px;
+    font-size: 0.85rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    color: inherit;
+    text-transform: uppercase;
+    opacity: .3;
+    color: black; }
+    .nav-tabs .nav-tab-item-link:first-of-type {
+      padding-left: 0; }
+    .nav-tabs .nav-tab-item-link.active, .nav-tabs .nav-tab-item-link:hover {
+      color: #38A7CE;
+      opacity: 1; }
+
+.btn.btn-link {
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 2px solid rgba(67, 137, 159, 0.2);
+  padding-bottom: 2px; }
+  .btn.btn-link:hover {
+    text-decoration: none;
+    border-bottom-color: #38A7CE; }
+
+.banner-area {
+  margin: 20px 0 50px; }
+  .banner-area .banner-title {
+    font-size: 0.75rem;
+    font-weight: 400; }
+  .banner-area .banner-content img {
+    display: block;
+    max-width: 100%;
+    width: 100%; }

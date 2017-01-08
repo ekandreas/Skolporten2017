@@ -1,5 +1,5 @@
-$gray-dark:                 #373a3c;
-$gray:                      #FAFAFA;
+$gray-dark:                 #d8d8d8;
+$gray:                      #999999;
 // $gray-light:                #818a91 !default;
 // $gray-lighter:              #eceeef !default;
 // $gray-lightest:             #f7f7f9 !default;
@@ -26,7 +26,8 @@ $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
 
-$body-bg: red;
+$body-bg: #FAFAFA;
+$footer-bg: #3d3d3d;
 
 $header-box-shadow:         0 1px 1px rgba(0,0,0,0.07);
 
@@ -48,6 +49,9 @@ $font-family-nav-weight:  700;
 $font-size-nav:           1.15rem;
 $font-size-nav-smaller:   0.85rem;
 
+$headings-font-weight:   600;
+$section-header-font-weight:  800;
+
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
 $font-size-root: 16px;
 
@@ -64,3 +68,5 @@ $font-size-h3: 1.75rem;
 $font-size-h4: 1.5rem;
 $font-size-h5: 1.25rem;
 $font-size-h6: 0.85rem;
+
+$well-padding: 20px;

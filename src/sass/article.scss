@@ -1,0 +1,24 @@
+.article-short {
+  margin: 0 0 30px;
+  .article-tags {
+    list-style-type: none;
+    margin: 0 5px 0 0;
+    padding: 0;
+    display: inline-block;
+    .article-tag {
+      display: inline-block;
+      padding: 2px 5px;
+    	border-radius: 2px;
+    	background-color: $gray-dark;
+      font-size: $font-size-sm;
+      a {
+        color: $font-color;
+        font-weight: 500;
+      }
+    }
+  }
+  .article-link {
+    color: $gray;
+    font-size: $font-size-sm;
+  }
+}

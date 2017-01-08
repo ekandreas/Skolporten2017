@@ -6,3 +6,29 @@ body {
 a {
   color: $brand-primary;
 }
+
+.well {
+  	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: $well-padding;
+    margin-bottom: 30px;
+}
+
+.section-header {
+  margin: 0 0 20px;
+  font-weight: $section-header-font-weight;
+}
+
+.nav {
+  li {
+    display: inline-block;
+  }
+}
+
+hr, .divider {
+  background: #303729;
+  height: 1px;
+  margin: 40px 0;
+  opacity: 0.1;
+}
