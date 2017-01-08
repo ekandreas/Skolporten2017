@@ -17,10 +17,10 @@
             <div class="navbar-search">
               <form id="search-box" action="#" role="search">
                 <label for="query">Sök på Skolporten.se</label>
-                <input id="" class="search-input" placeholder="Search" tabindex="1" autocomplete="off" name="query" type="text" aria-hidden="false">
+                <input id="" class="search-input" placeholder="Sök på Skolporten.se" tabindex="1" autocomplete="off" name="query" type="text" aria-hidden="false">
                 <input id="" class="" name="affiliate" type="hidden" value="">
                 <input id="" class="" name="utf8" type="hidden" value="✓">
-                <input id="" class="btn-search" type="image" disabled="" src="css/gfx/icon-search.png" value="Search">
+                <input id="" class="btn-search" type="image" disabled="" src="css/gfx/icon-search.png" value="Sök på Skolporten.se">
               </form>
             </div>
 

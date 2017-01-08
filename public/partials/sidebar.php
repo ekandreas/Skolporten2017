@@ -1,3 +1,25 @@
+<h6 class="section-header">Våra kategorier</h6>
+
+<div class="widget tags">
+  <ul class="tag-cloud">
+    <li class="tag-cloud-item"><a href="">ADHD</a></li>
+    <li class="tag-cloud-item"><a href="">Hälsa</a></li>
+    <li class="tag-cloud-item"><a href="">Inspektion</a></li>
+    <li class="tag-cloud-item"><a href="">Beo</a></li>
+    <li class="tag-cloud-item"><a href="">Högskola</a></li>
+    <li class="tag-cloud-item"><a href="">Lärrollen</a></li>
+    <li class="tag-cloud-item"><a href="">Kunskapsmätningar</a></li>
+    <li class="tag-cloud-item"><a href="">Skolpolitik</a></li>
+    <li class="tag-cloud-item"><a href="">Idrott</a></li>
+    <li class="tag-cloud-item"><a href="">Nyanlända</a></li>
+    <li class="tag-cloud-item"><a href="">Brott</a></li>
+    <li class="tag-cloud-item"><a href="">Skolhögtider</a></li>
+    <li class="tag-cloud-item"><a href="">Autism</a></li>
+    <li class="tag-cloud-item"><a href="">Coaching</a></li>
+    <li class="tag-cloud-item more"><a href="">...</a></li>
+  </ul>
+</div>
+
 <h6 class="section-header">Aktuella konferenser</h6>
 
 <div class="widget conferences">

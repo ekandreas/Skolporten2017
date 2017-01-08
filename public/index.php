@@ -32,6 +32,8 @@
 
         <button type="button" class="btn btn-primary btn-lg btn-block">Allt om pisa <img src="/css/gfx/arrow-right.png" class="arrow-right"/></button>
 
+        <?php include("partials/filter.php");?>
+
         <?php include("partials/latest-news.php");?>
 
         <div class="banner-area">
@@ -40,9 +42,6 @@
             <a href=""><img src="images/example-banner.png"/></a></a>
           </div>
         </div>
-
-
-        <h6 class="section-header">Nyheter</h6>
 
         <?php include("partials/news.php");?>
 
@@ -63,5 +62,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.min.js"><\/script>')</script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>

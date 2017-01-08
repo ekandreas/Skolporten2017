@@ -4933,8 +4933,9 @@ a {
 
 hr, .divider {
   background: rgba(48, 55, 41, 0.07);
-  height: 1px;
-  margin: 40px 0; }
+  height: 2px;
+  margin: 40px 0;
+  border-top: 0px solid transparent; }
 
 .news-main {
   margin-bottom: 30px; }
@@ -5124,7 +5125,16 @@ header {
 @media (max-width: 990px) {
   .navbar-toggleable-xs .navbar-nav .nav-item {
     float: none;
+    display: block;
     margin-left: 0; } }
+
+@media (min-width: 990px) {
+  .navbar-fixed-top .navbar-header {
+    padding-top: 0px; }
+  .navbar-fixed-top .navbar-brand {
+    display: none; }
+  .navbar-fixed-top #news-carousel {
+    display: none; } }
 
 .footer {
   margin-top: 70px;
@@ -5147,6 +5157,10 @@ header {
     @media (min-width: 990px) {
       .footer .navbar-social {
         float: right; } }
+    .footer .navbar-social a {
+      opacity: 0.5; }
+      .footer .navbar-social a:hover {
+        opacity: 1; }
 
 .article-short {
   margin: 0 0 30px; }
@@ -5189,27 +5203,33 @@ header {
       opacity: 1; }
 
 .btn {
-  border-radius: 3; }
+  border-radius: 3px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center; }
+  .btn .arrow-right {
+    float: right;
+    margin-top: 11px; }
   .btn.btn-lg, .btn-group-lg > .btn {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 2rem;
     line-height: 1.7em;
-    margin-bottom: 15px; }
-    .btn.btn-lg .arrow-right, .btn-group-lg > .btn .arrow-right {
-      float: right;
-      margin-top: 11px; }
+    margin-bottom: 30px;
+    text-align: left; }
   .btn.btn-link {
     padding-left: 0;
     padding-right: 0;
     border-bottom: 2px solid rgba(67, 137, 159, 0.2);
-    padding-bottom: 2px; }
+    padding-bottom: 2px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    text-transform: none; }
     .btn.btn-link:hover {
       text-decoration: none;
       border-bottom-color: #38A7CE; }
-  .btn.btn-block {
-    text-align: left; }
 
 .banner-area {
   margin: 20px 0 50px; }
@@ -5267,3 +5287,21 @@ header {
       left: 0;
       right: 0;
       bottom: 0; }
+
+.tag-cloud {
+  list-style-type: none;
+  margin: 0 5px 0 0;
+  padding: 0;
+  display: inline-block; }
+  .tag-cloud .tag-cloud-item {
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+    background-color: #d8d8d8;
+    font-size: 0.875rem;
+    margin-bottom: 3px; }
+    .tag-cloud .tag-cloud-item a {
+      color: #666666;
+      font-weight: 500; }
+    .tag-cloud .tag-cloud-item.more {
+      opacity: 0.5; }

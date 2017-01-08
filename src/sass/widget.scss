@@ -62,3 +62,25 @@
   }
 
 }
+
+.tag-cloud {
+  list-style-type: none;
+  margin: 0 5px 0 0;
+  padding: 0;
+  display: inline-block;
+  .tag-cloud-item {
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+    background-color: $gray-dark;
+    font-size: $font-size-sm;
+    margin-bottom: 3px;
+    a {
+      color: $font-color;
+      font-weight: 500;
+    }
+    &.more {
+      opacity: 0.5;
+    }
+  }
+}

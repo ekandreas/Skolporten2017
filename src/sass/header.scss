@@ -239,6 +239,21 @@ header {
 @media (max-width: 990px) {
   .navbar-toggleable-xs .navbar-nav .nav-item {
       float: none;
+      display: block;
       margin-left: 0;
+  }
+}
+
+.navbar-fixed-top {
+  @media (min-width: 990px) {
+    .navbar-header {
+      padding-top: 0px;
+    }
+    .navbar-brand {
+      display: none;
+    }
+    #news-carousel {
+      display: none;
+    }
   }
 }
