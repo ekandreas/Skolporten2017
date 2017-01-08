@@ -36,6 +36,8 @@
 
 <hr class="divider"/>
 
+<button type="button" class="btn btn-secondary btn-lg btn-block">Allt timss <img src="/css/gfx/arrow-right.png" class="arrow-right"/></button>
+
 <h6 class="section-header">Forskning & utveckling</h6>
 
 <div class="article-short">

@@ -1,4 +1,20 @@
 .btn {
+  border-radius: 3;
+  &.btn-primary {
+
+  }
+  &.btn-lg {
+    font-family: $font-family-nav;
+    font-weight: $font-family-nav-weight;
+    text-transform: uppercase;
+    font-size: $font-size-h2;
+    line-height: 1.7em;
+    margin-bottom: 15px;
+    .arrow-right {
+      float: right;
+      margin-top: 11px;
+    }
+  }
   &.btn-link {
     padding-left: 0;
     padding-right: 0;
@@ -8,5 +24,8 @@
       text-decoration: none;
       border-bottom-color: $link-color;
     }
+  }
+  &.btn-block {
+    text-align: left;
   }
 }

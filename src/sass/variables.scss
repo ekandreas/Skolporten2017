@@ -1,4 +1,5 @@
 $gray-dark:                 #d8d8d8;
+$gray-darker:               #374046;
 $gray:                      #999999;
 // $gray-light:                #818a91 !default;
 // $gray-lighter:              #eceeef !default;
@@ -28,6 +29,10 @@ $link-hover-decoration: underline;
 
 $body-bg: #FAFAFA;
 $footer-bg: #3d3d3d;
+
+$btn-secondary-color:            #fff;
+$btn-secondary-bg:               $gray-darker;
+$btn-secondary-border:           $gray-darker;
 
 $header-box-shadow:         0 1px 1px rgba(0,0,0,0.07);
 

@@ -30,6 +30,8 @@
 
       <div class="col-xs-12 col-md-12 col-lg-7 news-main">
 
+        <button type="button" class="btn btn-primary btn-lg btn-block">Allt om pisa <img src="/css/gfx/arrow-right.png" class="arrow-right"/></button>
+
         <?php include("partials/latest-news.php");?>
 
         <div class="banner-area">
