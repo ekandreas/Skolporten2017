@@ -1,6 +1,6 @@
-<h6 class="section-header">Våra kategorier</h6>
+<h6 class="section-header hidden-xs-down">Våra kategorier</h6>
 
-<div class="widget tags">
+<div class="widget tags hidden-xs-down">
   <ul class="tag-cloud">
     <li class="tag-cloud-item"><a href="">ADHD</a></li>
     <li class="tag-cloud-item"><a href="">Hälsa</a></li>
@@ -52,18 +52,18 @@
 
 </div>
 
-<h6 class="section-header">Skolporten</h6>
+<h6 class="section-header hidden-xs-down">Skolporten</h6>
 
-<div class="widget well">
+<div class="widget well hidden-xs-down">
   <img src="../images/skolporten-poster.png"/>
   <h4><a href="">Nytt nr av Skolporten ute 5 december!</a></h4>
   <p>Tema: Raster</p>
   <button type="button" class="btn btn-link">Läs mer</button>
 </div>
 
-<h6 class="section-header">Kompetensutveckling</h6>
+<h6 class="section-header hidden-xs-down">Kompetensutveckling</h6>
 
-<div class="widget well">
+<div class="widget well hidden-xs-down">
   <img src="../images/kompetensutveckling-poster.png"/>
   <h4><a href="">Under vårterminen arrangerar Skolporten 13 intressanta konferenser.</a></h4>
   <p>Vissa har ämnesdidaktisk inriktning, andra har övergripande teman som till exempel bedömning eller specialpedagogik.</p>
@@ -71,7 +71,7 @@
   <button type="button" class="btn btn-link">Läs mer och boka plats</button>
 </div>
 
-<div class="banner-area">
+<div class="banner-area hidden-xs-down">
   <h6 class="banner-title">ANNONS:</h6>
   <div class="banner-content">
     <a href=""><img src="images/wwf-banner.png"/></a></a>
