@@ -4910,9 +4910,16 @@ h6,
   color: inherit;
   text-transform: uppercase; }
 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  color: #38A7CE; }
+
 body {
   background-color: #FAFAFA;
-  color: #666666; }
+  color: #666666;
+  padding-top: 235px; }
 
 a {
   color: #38A7CE; }
@@ -4940,11 +4947,22 @@ hr, .divider {
 .news-main {
   margin-bottom: 30px; }
 
+.hidden {
+  display: none; }
+
 header {
   background-color: #fff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07); }
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  z-index: 999; }
   header .carousel {
     height: 125px; }
+  @media (min-width: 990px) {
+    header {
+      margin-bottom: 30px; } }
 
 .navbar-header {
   padding: 20px 20px 0px; }
@@ -5129,12 +5147,15 @@ header {
     margin-left: 0; } }
 
 @media (min-width: 990px) {
-  .navbar-fixed-top .navbar-header {
+  .nav-up .navbar-header {
     padding-top: 0px; }
-  .navbar-fixed-top .navbar-brand {
+  .nav-up .navbar-brand {
     display: none; }
-  .navbar-fixed-top #news-carousel {
+  .nav-up #news-carousel {
     display: none; } }
+
+.nav-up {
+  top: -235px; }
 
 .footer {
   margin-top: 70px;
@@ -7672,29 +7693,17 @@ header {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
-/**
- * Note: I have omitted any vendor-prefixes for clarity.
- * Adding them is left as an exercise for the reader.
- */
-.headroom {
-  will-change: transform;
-  transition: transform 200ms linear; }
+.form-control {
+  background: #efefef;
+  border-color: #efefef;
+  border-radius: 0; }
 
-.headroom--pinned {
-  transform: translateY(0);
-  position: fixed;
-  width: 100%;
-  z-index: 999; }
-  @media (min-width: 990px) {
-    .headroom--pinned .navbar-header {
-      padding-top: 0px; }
-    .headroom--pinned .navbar-brand {
-      display: none; }
-    .headroom--pinned #news-carousel {
-      display: none; } }
+select:not([multiple]) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=); }
 
-.headroom--unpinned {
-  transform: translateY(-100%); }
-
-.headroom--top {
-  position: relative; }
+.form-inline .form-check {
+  margin-right: 5px; }

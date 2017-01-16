@@ -7,14 +7,14 @@
 
     <div class="col-lg-6">
       <div class="form-group">
-        <label for="">Sök</label>
+        <label for="" class="hidden">Sök</label>
         <input type="text" class="form-control" id="" placeholder="Sök på skolporten.se">
       </div>
     </div>
 
     <div class="col-lg-6">
       <div class="form-group">
-        <label for="">Example select</label>
+        <label for="" class="hidden">Alla katergorier</label>
         <select class="form-control" id="">
           <option>1</option>
           <option>2</option>
@@ -27,14 +27,14 @@
 
     <div class="col-lg-6">
       <div class="form-group">
-        <label for="">Från datum</label>
+        <label for="" class="hidden">Från datum</label>
         <input type="text" class="form-control" id="" placeholder="Från datum">
       </div>
     </div>
 
     <div class="col-lg-6">
       <div class="form-group">
-        <label for="">Till datum</label>
+        <label for="" class="hidden">Till datum</label>
         <input type="text" class="form-control" id="" placeholder="Till datum">
       </div>
     </div>
@@ -43,19 +43,23 @@
 
   <div class="row">
 
-    <div class="col-lg-10">
-      <div class="form-check">
-      <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="" id="" value="">
-          Riksnyheter
-        </label>
+    <div class="form-inline">
+
+      <div class="col-lg-10">
+        <div class="form-check">
+        <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="">
+            Riksnyheter
+          </label>
+        </div>
+        <div class="form-check">
+        <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="">
+            Lokalnyheter
+          </label>
+        </div>
       </div>
-      <div class="form-check">
-      <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="" id="" value="">
-          Lokalnyheter
-        </label>
-      </div>
+
     </div>
 
     <div class="col-lg-2">

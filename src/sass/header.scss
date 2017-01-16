@@ -1,8 +1,16 @@
 header {
   background-color: #fff;
   box-shadow: $header-box-shadow;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  z-index: 999;
   .carousel {
     height: 125px;
+  }
+  @media (min-width: 990px) {
+    margin-bottom: 30px;
   }
 }
 
@@ -244,7 +252,7 @@ header {
   }
 }
 
-.navbar-fixed-top {
+.nav-up {
   @media (min-width: 990px) {
     .navbar-header {
       padding-top: 0px;
@@ -256,4 +264,8 @@ header {
       display: none;
     }
   }
+}
+
+.nav-up {
+  top: -235px; // same as header height. use variables in LESS/SASS
 }

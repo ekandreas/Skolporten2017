@@ -1,6 +1,7 @@
 body {
   background-color: $body-bg;
   color: $font-color;
+  padding-top: 235px;
 }
 
 a {
@@ -35,4 +36,8 @@ hr, .divider {
 
 .news-main {
   margin-bottom: 30px;
+}
+
+.hidden {
+  display: none;
 }
