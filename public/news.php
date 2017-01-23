@@ -11,7 +11,7 @@
 
   <?php include("partials/header.php");?>
 
-  <div class="container">
+  <div class="container wrapper">
 
     <div class="row">
 

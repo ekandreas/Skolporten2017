@@ -4950,6 +4950,9 @@ hr, .divider {
 .hidden {
   display: none; }
 
+.wrapper {
+  margin-top: 30px; }
+
 header {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
@@ -5199,9 +5202,12 @@ header {
       .article-short .article-tags .article-tag a {
         color: #666666;
         font-weight: 500; }
+  .article-short .article-meta {
+    margin: 0px 0 15px; }
   .article-short .article-link {
     color: #999999;
-    font-size: 0.875rem; }
+    font-size: 0.875rem;
+    margin-right: 7px; }
 
 .nav-tabs {
   margin-top: 0px;
@@ -5283,6 +5289,8 @@ header {
         position: absolute;
         right: 0;
         top: 0; }
+  .widget.interview {
+    margin: 0 30px 30px 0; }
   .widget.conferences {
     background: #1789b1;
     border-radius: 3px;

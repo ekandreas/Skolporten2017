@@ -17,8 +17,12 @@
       }
     }
   }
+  .article-meta {
+    margin: 0px 0 15px;
+  }
   .article-link {
     color: $gray;
     font-size: $font-size-sm;
+    margin-right: 7px;
   }
 }
