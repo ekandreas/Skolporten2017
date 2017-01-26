@@ -1,0 +1,7 @@
+verbose: true
+branch-master:
+    run-option: "after"
+    success:
+        shell:
+            - 'echo "Current user: $USER"'
+            - 'rsync -rave "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" . deploy@skolporten.se:/mnt/persist/www/2017.skolporten.se'
