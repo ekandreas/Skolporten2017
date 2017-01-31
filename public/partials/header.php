@@ -122,14 +122,6 @@
             </div>
 
             <div class="navbar navbar-default level-2">
-              <ul class="nav navbar-nav navbar-social">
-                <li class="nav-item active">
-                  <a class="nav-item nav-link nav-facebook" href="#"><img src="css/gfx/icon-fb.png"/></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-item nav-link nav-twitter" href="#"><img src="css/gfx/icon-twitter.png"/></a>
-                </li>
-              </ul>
               <ul class="nav navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-item nav-link active" href="#">Fler nyheter</a>
@@ -169,6 +161,14 @@
                       <a class="nav-item nav-link " href="#">Kontakta oss</a>
                     </li>
                   </ul>
+              </ul>
+              <ul class="nav navbar-social">
+                <li class="nav-item active">
+                  <a class="nav-item nav-link nav-facebook" href="#"><img src="css/gfx/icon-fb.png"/></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-item nav-link nav-twitter" href="#"><img src="css/gfx/icon-twitter.png"/></a>
+                </li>
               </ul>
             </div>
 
