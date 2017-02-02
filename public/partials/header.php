@@ -1,4 +1,4 @@
-<header class="header nav-down">
+<header class="header" data-toggle="sticky-onscroll">
 
     <nav>
 

@@ -1,8 +1,8 @@
 header {
   background-color: #fff;
+  transition: all 0.4s ease;
   box-shadow: $header-box-shadow;
-  position: fixed;
-  top: 0;
+  position: relative;
   transition: top 0.2s ease-in-out;
   width: 100%;
   z-index: 999;
@@ -28,8 +28,15 @@ header {
 
 .navbar-brand {
   float: none;
-  margin-top: 10px;
+  // margin-top: 10px;
   display: block;
+  opacity: 1;
+  margin-top: 10px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  img {
+  }
 }
 
 .navbar-search {
@@ -83,7 +90,12 @@ header {
   &.level-0 {
     background-color: #1889B1; //add color to variables
     font-size: $font-size-nav-smaller;
+    z-index: 2;
+
     @media (max-width: 990px) {
+      .container {
+        margin: 0;
+      }
       padding: 10px 0px;
     }
     a {
@@ -191,6 +203,11 @@ header {
   display: none;
   @media (min-width: 990px) {
     display: block;
+    opacity: 1;
+    // margin-top: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .news-card {
     border:0px solid transparent;
@@ -291,4 +308,51 @@ header {
 
 .nav-up {
   top: -235px; // same as header height. use variables in LESS/SASS
+}
+
+.sticky {
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+  @media (min-width: 990px) {
+    height: 245px;
+  }
+}
+
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+  width: 100%;
+
+  @media (min-width: 990px) {
+
+  height: 150px;
+
+    .navbar-header {
+      padding-top: 0px;
+    }
+    .navbar-brand {
+      opacity: 0;
+      margin-top: -60px;
+      -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      transition: all 0.1s;
+      img {
+      }
+    }
+    #news-carousel {
+      opacity: 0;
+      margin-top: -70px;
+      -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      transition: all 0.1s;
+    }
+  }
+
 }

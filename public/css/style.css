@@ -6005,8 +6005,7 @@ h4, .h4 {
 
 body {
   background-color: #FAFAFA;
-  color: #666666;
-  padding-top: 235px; }
+  color: #666666; }
 
 a {
   color: #38A7CE; }
@@ -6042,9 +6041,9 @@ hr, .divider {
 
 header {
   background-color: #fff;
+  transition: all 0.4s ease;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
-  position: fixed;
-  top: 0;
+  position: relative;
   transition: top 0.2s ease-in-out;
   width: 100%;
   z-index: 999; }
@@ -6065,8 +6064,12 @@ header {
 
 .navbar-brand {
   float: none;
+  display: block;
+  opacity: 1;
   margin-top: 10px;
-  display: block; }
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
 
 .navbar-search {
   position: relative; }
@@ -6109,10 +6112,13 @@ header {
         margin: 0 15px 0 0; } }
   .navbar.level-0 {
     background-color: #1889B1;
-    font-size: 0.85rem; }
+    font-size: 0.85rem;
+    z-index: 2; }
     @media (max-width: 990px) {
       .navbar.level-0 {
-        padding: 10px 0px; } }
+        padding: 10px 0px; }
+        .navbar.level-0 .container {
+          margin: 0; } }
     .navbar.level-0 a {
       color: rgba(255, 255, 255, 0.6); }
       .navbar.level-0 a:hover {
@@ -6196,7 +6202,11 @@ header {
   display: none; }
   @media (min-width: 990px) {
     #news-carousel {
-      display: block; } }
+      display: block;
+      opacity: 1;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; } }
   #news-carousel .news-card {
     border: 0px solid transparent;
     overflow: hidden; }
@@ -6264,6 +6274,42 @@ header {
 
 .nav-up {
   top: -235px; }
+
+.sticky {
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s; }
+  @media (min-width: 990px) {
+    .sticky {
+      height: 245px; } }
+
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+  width: 100%; }
+  @media (min-width: 990px) {
+    .sticky.is-sticky {
+      height: 150px; }
+      .sticky.is-sticky .navbar-header {
+        padding-top: 0px; }
+      .sticky.is-sticky .navbar-brand {
+        opacity: 0;
+        margin-top: -60px;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s; }
+      .sticky.is-sticky #news-carousel {
+        opacity: 0;
+        margin-top: -70px;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s; } }
 
 .footer {
   margin-top: 70px;
