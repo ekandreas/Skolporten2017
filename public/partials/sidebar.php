@@ -29,15 +29,19 @@
     <div class="carousel-inner">
 
       <div class="carousel-item active">
-        <p>24 jan 2017</p>
-        <h3><a href="">Hur driver och säkerställer vi ett gott mottagande av nyanlända elever i skola och kommun?</a></h3>
-        <button type="button" class="btn btn-link">Läs mer</button>
+        <div class="carousel-item-inner">
+          <p>24 jan 2017</p>
+          <h3><a href="">Hur driver och säkerställer vi ett gott mottagande av nyanlända elever i skola och kommun?</a></h3>
+          <button type="button" class="btn btn-link">Läs mer</button>
+        </div>
       </div>
 
       <div class="carousel-item">
-        <p>24 jan 2017</p>
-        <h3><a href="">Lorem ipsum dolor sit amet, duo eius adolescens at, meis dicat facer te vix. Ea utroque partiendo vix.</a></h3>
-        <button type="button" class="btn btn-link">Läs mer</button>
+        <div class="carousel-item-inner">
+          <p>24 jan 2017</p>
+          <h3><a href="">Lorem ipsum dolor sit amet, duo eius adolescens at, meis dicat facer te vix. Ea utroque partiendo vix.</a></h3>
+          <button type="button" class="btn btn-link">Läs mer</button>
+        </div>
       </div>
 
     </div>

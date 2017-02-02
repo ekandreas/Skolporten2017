@@ -51,6 +51,13 @@
       }
     }
 
+    .carousel-item {
+      flex-direction: column;
+      .carousel-item-inner {
+        display: block;
+      }
+    }
+
     .carousel-indicators {
       text-align: right;
       position: absolute;
@@ -61,6 +68,11 @@
       left: 0;
       right: 0;
       bottom: 0;
+      li {
+        max-width: 10px;
+        border-radius: 20px;
+        height: 10px;
+      }
     }
 
   }

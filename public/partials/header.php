@@ -85,8 +85,7 @@
                           </div>
                           <div class="article">
                               <h6>Moa Duvarci Engman</h6>
-                              <h5><a href="#">Nyhet! Läs Skolportens
-                              forskningsmagasin digitalt!</a></h5>
+                              <h5><a href="#">Annan nyhet här :)</a></h5>
                           </div>
                         </div>
                       </div>

@@ -6205,7 +6205,7 @@ header {
       padding-left: 14px;
       float: left; }
     #news-carousel .news-card .article {
-      width: 70%;
+      width: 60%;
       float: left;
       padding-left: 20px;
       padding-right: 0; }
@@ -6411,6 +6411,10 @@ header {
       border-bottom-color: rgba(255, 255, 255, 0.3); }
       .widget.conferences .btn-link:hover {
         border-bottom-color: rgba(255, 255, 255, 0.8); }
+    .widget.conferences .carousel-item {
+      flex-direction: column; }
+      .widget.conferences .carousel-item .carousel-item-inner {
+        display: block; }
     .widget.conferences .carousel-indicators {
       text-align: right;
       position: absolute;
@@ -6421,6 +6425,10 @@ header {
       left: 0;
       right: 0;
       bottom: 0; }
+      .widget.conferences .carousel-indicators li {
+        max-width: 10px;
+        border-radius: 20px;
+        height: 10px; }
 
 .tag-cloud {
   list-style-type: none;
