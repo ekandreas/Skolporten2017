@@ -80,8 +80,8 @@
                     <div class="carousel-item active">
                       <div class="news-card">
                         <div class="row">
-                          <div class="thumbnail">
-                            <img src="images/dummy-avatar.png" class="avatar"/>
+                          <div class="thumbnail round">
+                            <img src="images/dummy-avatar-square.jpg" class="avatar"/>
                           </div>
                           <div class="article">
                               <h6>Moa Duvarci Engman</h6>
@@ -94,7 +94,7 @@
                     <div class="carousel-item">
                       <div class="news-card">
                         <div class="row">
-                          <div class="thumbnail">
+                          <div class="thumbnail round">
                             <img src="images/dummy-avatar.png" class="avatar"/>
                           </div>
                           <div class="article">

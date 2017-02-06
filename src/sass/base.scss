@@ -45,3 +45,9 @@ hr, .divider {
 .wrapper {
   margin-top: 30px;
 }
+
+.round {
+  border-radius: 50%;
+  overflow:hidden;
+  border:2px solid #EEEEEE;
+}

@@ -6039,6 +6039,11 @@ hr, .divider {
 .wrapper {
   margin-top: 30px; }
 
+.round {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #EEEEEE; }
+
 header {
   background-color: #fff;
   transition: all 0.4s ease;
@@ -6211,9 +6216,11 @@ header {
     border: 0px solid transparent;
     overflow: hidden; }
     #news-carousel .news-card .thumbnail {
-      width: 110px;
-      padding-left: 14px;
-      float: left; }
+      margin-left: 15px;
+      float: left;
+      height: 102px;
+      width: 102px;
+      overflow: hidden; }
     #news-carousel .news-card .article {
       width: 60%;
       float: left;

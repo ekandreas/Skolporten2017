@@ -213,9 +213,12 @@ header {
     border:0px solid transparent;
     overflow: hidden;
     .thumbnail {
-      width: 110px;
-      padding-left: 14px;
+      // padding-left: 14px;
+      margin-left: 15px;
       float: left;
+      height: 102px;
+      width: 102px;
+      overflow:hidden;
     }
     .article {
       width: 60%;
