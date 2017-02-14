@@ -6437,6 +6437,9 @@ header {
 .shop-item h5 {
   margin-top: 10px; }
 
+.shop-item img {
+  width: 100%; }
+
 .widget {
   margin-bottom: 30px; }
   .widget img {
