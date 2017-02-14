@@ -47,6 +47,8 @@
                 <dd>2016-12-02 vid Mittuniversitetet</dd>
               </dl>
 
+              <a class="btn btn-link" href="http://www.skolporten.se/forskning/intervju/multiplikation-av-flersiffriga-tal-utmanar/students-understandings-multiplication">Avhandlning</a>
+
             </div>
 
             <h3>Varför blev du intresserad av ämnet?</h3>
