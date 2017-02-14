@@ -9,17 +9,37 @@
   text-align: center;
   .arrow-right {
     float: right;
-    margin-top: 11px;
+    // margin-top: 11px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+  }
+
+  &.btn-sm{
+    .arrow-right {
+      height: 13px;
+      margin-top: 1px;
+    }
+  }
+
+  &.btn-md{
+    .arrow-right {
+      height: 16px;
+      margin-top: 1px;
+    }
   }
 
   &.btn-lg {
     font-family: $font-family-nav;
     font-weight: $font-family-nav-weight;
-    text-transform: none;
-    font-size: $font-size-h2;
+    text-transform: uppercase;
+    font-size: $font-size-h5;
     line-height: 1.7em;
     margin-bottom: 30px;
     text-align: left;
+    .arrow-right {
+      height: 20px;
+      margin-top: 4px;
+    }
   }
 
   &.btn-primary {

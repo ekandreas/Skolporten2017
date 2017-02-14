@@ -20,13 +20,14 @@
 
           <h6 class="section-header">Typsidor</h6>
           <ul>
-            <li><a href="home.php">Styleguide</a></li>
+            <li><a href="styleguide.php">Styleguide</a></li>
             <li><a href="home.php">Startsida</a></li>
             <li><a href="page.php">Kampanj</a></li>
             <li><a href="interview.php">Intervju</a></li>
             <li><a href="news.php">Fler nyheter</a></li>
             <li><a href="forms.php">Formulär</a></li>
             <li><a href="webshop.php">Webbshop</a></li>
+            <li><a href="404.php">404</a></li>
           </ul>
 
         </div>
