@@ -56,3 +56,29 @@ img {
   max-width: 100%;
   margin-bottom: 5px;
 }
+
+
+.alignnone {float:none;}
+.aligncenter {margin: 0 auto; float: none;display: block;}
+.alignleft {float:left;margin:0 5px 5px 0;}
+.alignright {float:right;margin:0 0 5px 5px;}
+
+.bg-success {
+  background-color: $bg-success;
+  color: #fff;
+}
+
+.bg-info {
+  background-color: $bg-info;
+  color: #fff;
+}
+
+.bg-warning {
+  background-color: $bg-warning;
+  color: #fff;
+}
+
+.bg-danger {
+  background-color: $bg-danger;
+  color: #fff;
+}

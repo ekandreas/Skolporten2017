@@ -32,6 +32,15 @@ $link-hover-decoration: underline;
 $body-bg: #FAFAFA;
 $footer-bg: #3d3d3d;
 
+
+$bg-success:     #A8D863;
+$bg-info:     #63BBD8;
+$bg-warning:     #D8B063;
+$bg-danger:     #D86363;
+
+$bg-interview:  $bg-info;
+$bg-events:     $bg-success;
+
 $btn-secondary-color:            #fff;
 $btn-secondary-bg:               $gray-darker;
 $btn-secondary-border:           $gray-darker;

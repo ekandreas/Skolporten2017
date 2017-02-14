@@ -73,7 +73,79 @@
 
           </div>
 
-        </div>
+          <div class="history">
+            <p class="small">Sidan skapades 2017-01-18 av Susanne Sawander<br/>
+            Senast redigerad 2017-01-18 av Susanne Sawander</p>
+          </div>
+
+          <hr/>
+
+          <h6 class="section-header">Relaterat</div>
+
+          <div class="row">
+
+            <div class="col-md-6 article-short">
+
+              <div class="article-content">
+                <h3><a href="">Social bakgrund styr valet att bli gymnasielärare</a></h3>
+                <p class="small">Den sociala bakgrunden har stor betydelse för vem som blir gymnasielärare. Det konstaterar Magnus Persson som forskat om vad som sker under gymnasielärarutbildningen.</p>
+              </div>
+
+              <div class="meta">
+                <ul class="meta-tags">
+                  <li class="meta-tag tag-interview"><a href="">Intervju</a></li>
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="col-md-6 article-short">
+
+              <div class="article-content">
+                <h3><a href="">Problematisering viktigt i religionskunskap</a></h3>
+                <p class="small">Att kunna problematisera ämnets innehåll och visa på relevanta sammanhang är viktiga förmågor hos religionskunskapslärare. David Carlsson har forskat om vilka kunskaper lärare i religionskunskap på gymnasiet anses behöva.</p>
+              </div>
+
+              <div class="meta">
+                <ul class="meta-tags">
+                  <li class="meta-tag tag-interview"><a href="">Intervju</a></li>
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="col-md-6 article-short">
+
+              <div class="article-content">
+                <h3><a href="">Skolbibliotek 2017, 29-30 mars i Göteborg</a></h3>
+                <p class="small">Konferensen för dig som arbetar i och med skolbibliotek i grundskolan eller gymnasieskolan. Vi berör bl.a. ämnen som digitalisering, samverkan lärare-skolbibliotek, yttrande-och tryckfrihetslagen samt att bygga ett mångspråkigt bokbestånd. Välkommen till konferensen om skolbiblioteket - skolans nav!</p>
+              </div>
+
+              <div class="meta">
+                <ul class="meta-tags">
+                  <li class="meta-tag tag-events"><a href="">Arrangemang</a></li>
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="col-md-6 article-short">
+
+              <div class="article-content">
+                <h3><a href="">Specialpedagogik vårterminen 2017</a></h3>
+                <p class="small">Intresserad av fortbildning inom det specialpedagogiska fältet? Välkommen till vår årliga konferens, den 27-28 april i Stockholm och den 4-5 maj i Göteborg. Lyssna bland annat till Petri Partanen om metakognition, Bo Sundblad om "pysparagrafen" och Alva Appelgren om samband mellan feedback och motivation. Vi skapar en röd tråd mellan lärprocesser, motivation och förhållningssätt!</p>
+              </div>
+
+              <div class="meta">
+                <ul class="meta-tags">
+                  <li class="meta-tag tag-events"><a href="">Arrangemang</a></li>
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
+
 
       </div>
 

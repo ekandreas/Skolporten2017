@@ -6049,6 +6049,38 @@ img {
   max-width: 100%;
   margin-bottom: 5px; }
 
+.alignnone {
+  float: none; }
+
+.aligncenter {
+  margin: 0 auto;
+  float: none;
+  display: block; }
+
+.alignleft {
+  float: left;
+  margin: 0 5px 5px 0; }
+
+.alignright {
+  float: right;
+  margin: 0 0 5px 5px; }
+
+.bg-success {
+  background-color: #A8D863;
+  color: #fff; }
+
+.bg-info {
+  background-color: #63BBD8;
+  color: #fff; }
+
+.bg-warning {
+  background-color: #D8B063;
+  color: #fff; }
+
+.bg-danger {
+  background-color: #D86363;
+  color: #fff; }
+
 header {
   background-color: #fff;
   transition: all 0.4s ease;
@@ -6374,6 +6406,35 @@ header {
       .meta .meta-tags .meta-tag a {
         color: #666666;
         font-weight: 500; }
+      .meta .meta-tags .meta-tag.tag-interview {
+        background-color: #63BBD8; }
+        .meta .meta-tags .meta-tag.tag-interview a {
+          color: #fff; }
+      .meta .meta-tags .meta-tag.tag-events {
+        background-color: #A8D863; }
+        .meta .meta-tags .meta-tag.tag-events a {
+          color: #fff; }
+      .meta .meta-tags .meta-tag.bg-success {
+        background-color: #A8D863; }
+        .meta .meta-tags .meta-tag.bg-success a {
+          color: #fff; }
+      .meta .meta-tags .meta-tag.bg-danger {
+        background-color: #D86363; }
+        .meta .meta-tags .meta-tag.bg-danger a {
+          color: #fff; }
+      .meta .meta-tags .meta-tag.bg-info {
+        background-color: #63BBD8; }
+        .meta .meta-tags .meta-tag.bg-info a {
+          color: #fff; }
+      .meta .meta-tags .meta-tag.bg-warning {
+        background-color: #D8B063; }
+        .meta .meta-tags .meta-tag.bg-warning a {
+          color: #fff; }
+
+.history {
+  opacity: 0.5;
+  margin-top: 50px;
+  margin-bottom: 80px; }
 
 .nav-tabs {
   margin-top: 0px;

@@ -25,6 +25,50 @@
         color: $font-color;
         font-weight: 500;
       }
+      &.tag-interview {
+        background-color: $bg-interview;
+        a {
+          color: #fff;
+        }
+      }
+
+      &.tag-events {
+        background-color: $bg-events;
+        a {
+          color: #fff;
+        }
+      }
+
+      &.bg-success {
+        background-color: $bg-success;
+        a {
+          color: #fff;
+        }
+      }
+      &.bg-danger {
+        background-color: $bg-danger;
+        a {
+          color: #fff;
+        }
+      }
+      &.bg-info {
+        background-color: $bg-info;
+        a {
+          color: #fff;
+        }
+      }
+      &.bg-warning {
+        background-color: $bg-warning;
+        a {
+          color: #fff;
+        }
+      }
     }
   }
+}
+
+.history {
+  opacity: 0.5;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
