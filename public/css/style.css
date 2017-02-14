@@ -440,7 +440,7 @@ h2, .h2 {
   font-size: 2rem; }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 1.5rem; }
 
 h4, .h4 {
   font-size: 1.4rem; }
@@ -6000,7 +6000,8 @@ h6,
 h1, .h1,
 h2, .h2,
 h3, .h3,
-h4, .h4 {
+h4, .h4,
+h5, .h5 {
   color: #38A7CE; }
 
 body {
@@ -6018,7 +6019,7 @@ a {
   margin-bottom: 30px; }
 
 .section-header {
-  margin: 0 0 20px;
+  margin: 20px 0 20px;
   font-weight: 800; }
 
 .nav li {
@@ -6037,12 +6038,16 @@ hr, .divider {
   display: none; }
 
 .wrapper {
-  margin-top: 30px; }
+  margin-top: 60px; }
 
 .round {
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid #EEEEEE; }
+
+img {
+  max-width: 100%;
+  margin-bottom: 5px; }
 
 header {
   background-color: #fff;
@@ -6221,6 +6226,8 @@ header {
       height: 102px;
       width: 102px;
       overflow: hidden; }
+      #news-carousel .news-card .thumbnail img {
+        max-width: none; }
     #news-carousel .news-card .article {
       width: 60%;
       float: left;
@@ -6346,26 +6353,27 @@ header {
 
 .article-short {
   margin: 0 0 30px; }
-  .article-short .article-tags {
+
+.meta {
+  margin: 0px 0 15px; }
+  .meta .meta-link {
+    color: #999999;
+    font-size: 0.875rem;
+    margin-right: 7px; }
+  .meta .meta-tags {
     list-style-type: none;
     margin: 0 5px 0 0;
     padding: 0;
     display: inline-block; }
-    .article-short .article-tags .article-tag {
+    .meta .meta-tags .meta-tag {
       display: inline-block;
       padding: 2px 5px;
       border-radius: 2px;
       background-color: #d8d8d8;
       font-size: 0.875rem; }
-      .article-short .article-tags .article-tag a {
+      .meta .meta-tags .meta-tag a {
         color: #666666;
         font-weight: 500; }
-  .article-short .article-meta {
-    margin: 0px 0 15px; }
-  .article-short .article-link {
-    color: #999999;
-    font-size: 0.875rem;
-    margin-right: 7px; }
 
 .nav-tabs {
   margin-top: 0px;
@@ -6426,6 +6434,9 @@ header {
     max-width: 100%;
     width: 100%; }
 
+.shop-item h5 {
+  margin-top: 10px; }
+
 .widget {
   margin-bottom: 30px; }
   .widget img {
@@ -6448,7 +6459,10 @@ header {
         right: 0;
         top: 0; }
   .widget.interview {
-    margin: 0 30px 30px 0; }
+    margin: 0 30px 30px 0;
+    float: left;
+    font-size: 80%;
+    width: 170px; }
   .widget.conferences {
     background: #1789b1;
     border-radius: 3px;
@@ -6459,6 +6473,8 @@ header {
       min-height: 310px; }
     .widget.conferences a {
       color: #fff; }
+    .widget.conferences h3 {
+      font-size: 1.75rem; }
     .widget.conferences .btn-link {
       color: #fff;
       border-bottom-color: rgba(255, 255, 255, 0.3); }
@@ -8871,6 +8887,9 @@ header {
   background: #efefef;
   border-color: #efefef;
   border-radius: 0; }
+
+.form-group:first-of-type {
+  margin-top: 30px; }
 
 select:not([multiple]) {
   -webkit-appearance: none;

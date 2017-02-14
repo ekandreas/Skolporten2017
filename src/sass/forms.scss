@@ -12,6 +12,12 @@ label {
   border-radius: 0;
 }
 
+.form-group {
+  &:first-of-type {
+    margin-top: 30px;
+  }
+}
+
 select:not([multiple]) {
   -webkit-appearance: none;
   -moz-appearance: none;

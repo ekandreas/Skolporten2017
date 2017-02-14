@@ -29,6 +29,10 @@
 
   &.interview {
     margin: 0 30px 30px 0;
+    float: left;
+    font-size: 80%;
+    width: 170px;
+    // img {width: 110px;}
   }
 
   &.conferences {
@@ -43,6 +47,7 @@
     a {
       color: #fff;
     }
+    h3 {font-size: 1.75rem;}
     .btn-link {
       color: #fff;
       border-bottom-color: rgba(255,255,255,0.3);

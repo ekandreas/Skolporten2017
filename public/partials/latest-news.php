@@ -22,11 +22,11 @@
         <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
       </div>
 
-      <div class="article-meta">
-        <ul class="article-tags">
-          <li class="article-tag"><a href="">Huvudmannaskap</a></li>
+      <div class="meta">
+        <ul class="meta-tags">
+          <li class="meta-tag"><a href="">Huvudmannaskap</a></li>
         </ul>
-        <a href="#" class="article-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+        <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
       </div>
 
     </div>
@@ -38,11 +38,11 @@
         <p>Pisa tillmäts för stort inflytande. Det anser hälften av landets lärare, visar en undersökning som Lärarnas Tidning har gjort.</p>
       </div>
 
-      <div class="article-meta">
-        <ul class="article-tags">
-          <li class="article-tag"><a href="">Kunskapsmätningar</a></li>
+      <div class="meta">
+        <ul class="meta-tags">
+          <li class="meta-tag"><a href="">Kunskapsmätningar</a></li>
         </ul>
-        <a href="#" class="article-link" target="_blank">Lärarnas tidning <img src="css/gfx/icon-link.png"/></a>
+        <a href="#" class="meta-link" target="_blank">Lärarnas tidning <img src="css/gfx/icon-link.png"/></a>
       </div>
 
     </div>
@@ -54,11 +54,11 @@
         <p>Skolinspektionen föreslås få ett samlat ansvar för alla diskrimineringsfrågor i skolan och överta vissa av DO:s uppgifter. Det är ett av de förslag utredaren Anna-Karin Lund presenterar.</p>
       </div>
 
-      <div class="article-meta">
-        <ul class="article-tags">
-          <li class="article-tag"><a href="">Inspektion</a></li>
+      <div class="meta">
+        <ul class="meta-tags">
+          <li class="meta-tag"><a href="">Inspektion</a></li>
         </ul>
-        <a href="#" class="article-link" target="_blank">Altinget <img src="css/gfx/icon-link.png"/></a>
+        <a href="#" class="meta-link" target="_blank">Altinget <img src="css/gfx/icon-link.png"/></a>
       </div>
 
     </div>

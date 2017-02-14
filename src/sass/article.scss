@@ -1,11 +1,21 @@
 .article-short {
   margin: 0 0 30px;
-  .article-tags {
+}
+
+.meta {
+  margin: 0px 0 15px;
+  .meta-link {
+    color: $gray;
+    font-size: $font-size-sm;
+    margin-right: 7px;
+  }
+
+  .meta-tags {
     list-style-type: none;
     margin: 0 5px 0 0;
     padding: 0;
     display: inline-block;
-    .article-tag {
+    .meta-tag {
       display: inline-block;
       padding: 2px 5px;
     	border-radius: 2px;
@@ -16,13 +26,5 @@
         font-weight: 500;
       }
     }
-  }
-  .article-meta {
-    margin: 0px 0 15px;
-  }
-  .article-link {
-    color: $gray;
-    font-size: $font-size-sm;
-    margin-right: 7px;
   }
 }
