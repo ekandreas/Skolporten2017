@@ -19,7 +19,7 @@
 
         <?php include("partials/filter.php");?>
 
-        <?php include("partials/news.php");?>
+        <?php include("partials/more-news.php");?>
 
       </div>
 

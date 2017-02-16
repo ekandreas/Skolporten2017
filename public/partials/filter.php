@@ -1,7 +1,14 @@
 <h6 class="section-header">Fler nyheter</h6>
-<h2>Filtrera ditt innehåll</h2>
 
-<div class="widget well">
+<div class="meta">
+  <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+</div>
+
+<!-- <h2>Filtrera ditt innehåll</h2> -->
+
+<div class="widget well filter">
 
   <div class="row">
 
@@ -43,9 +50,9 @@
 
   <div class="row">
 
-    <div class="form-inline">
+    <div class="col-lg-10">
 
-      <div class="col-lg-10">
+      <div class="form-inline">
         <div class="form-check">
         <label class="form-check-label">
             <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="">

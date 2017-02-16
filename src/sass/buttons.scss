@@ -61,3 +61,19 @@
   &.btn-block {
   }
 }
+
+.btn-group > .btn {
+  background-color: #d8d8d8;
+  color: $font-color;
+  // box-shadow: $header-box-shadow;
+  &:hover {
+    background-color: #fff;
+    box-shadow: $header-box-shadow;
+    cursor: pointer;
+  }
+}
+
+.btn-group > .btn.active {
+  background-color: #fff;
+  box-shadow: $header-box-shadow;
+}
