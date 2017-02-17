@@ -6017,10 +6017,16 @@ a {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 30px; }
+  .well.light {
+    background-color: transparent;
+    box-shadow: 0 0px 0px 0 transparent; }
 
 .section-header {
   margin: 20px 0 20px;
   font-weight: 800; }
+  .section-header.secondary {
+    font-weight: normal;
+    font-style: italic; }
 
 .nav li {
   display: inline-block; }
@@ -6395,6 +6401,9 @@ header {
 .article-short {
   margin: 0 0 30px; }
 
+.article-thumbnail {
+  margin-bottom: 10px; }
+
 .meta {
   margin: 0px 0 15px; }
   .meta .meta-link {
@@ -6562,6 +6571,10 @@ header {
       max-width: none;
       margin: 0 20px 70px 0;
       float: left; }
+      @media (max-width: 320px) {
+        .widget.interview img {
+          width: 80px;
+          margin: 0 20px 0px 0; } }
     @media (min-width: 990px) {
       .widget.interview {
         width: 170px;

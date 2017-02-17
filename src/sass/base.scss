@@ -14,11 +14,19 @@ a {
     background-color: #ffffff;
     padding: $well-padding;
     margin-bottom: 30px;
+    &.light {
+      background-color: transparent;
+      box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+    }
 }
 
 .section-header {
   margin: 20px 0 20px;
   font-weight: $section-header-font-weight;
+  &.secondary {
+    font-weight: normal;
+    font-style: italic;
+  }
 }
 
 .nav {
