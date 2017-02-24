@@ -197,164 +197,49 @@
 
             </div>
 
-            <h6 class="section-header secondary">Grupperade nyheter, special</h6>
+            <div class="article-short well">
 
-            <div class="grouped">
-
-              <h6 class="section-header">TEMA OGILTIG FRÅNVARO</h6>
-
-              <div class="well">
-
-                <div class="article-short">
-
-                  <div class="article-content">
-                    <div class="meta">
-                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
-                    </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
-                    <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
-                    <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
-                  </div>
-
-                  <div class="meta">
-                    <ul class="meta-tags">
-                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
-                    </ul>
-                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
-                  </div>
-
+              <div class="article-content">
+                <div class="meta">
+                  <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                 </div>
-
-                <div class="article-short">
-
-                  <div class="article-content">
-                    <div class="meta">
-                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
-                    </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
-                    <h2><a href="">Jonas var hemma hela åttan</a></h2>
-                    <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
-                  </div>
-
-                  <div class="meta">
-                    <ul class="meta-tags">
-                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
-                    </ul>
-                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
-                  </div>
-
-                </div>
-
-                <div class="article-short">
-
-                  <div class="article-content">
-                    <div class="meta">
-                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
-                    </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
-                    <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
-                    <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
-                  </div>
-
-                  <div class="meta">
-                    <ul class="meta-tags">
-                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
-                    </ul>
-                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
-                  </div>
-
-                </div>
-
+                <img class="article-thumbnail alignleft" width="160" src="../images/dummy-post-image.png"/>
+                <h2><a href="">LO: Förstatliga skolan</a></h2>
+                <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
               </div>
 
-              <p class="small mb-0">Läs mer om <a href="#" class="btn-primary btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-primary btn-sm ml-1">Ogiltig frånvaro</a></p>
+              <div class="meta">
+                <ul class="meta-tags">
+                  <li class="meta-tag"><a href="">Huvudmannaskap</a></li>
+                </ul>
+                <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+              </div>
 
             </div>
 
-            <div class="grouped featured mt-3">
+            <div class="article-short well">
 
-              <h6 class="section-header">TEMA OGILTIG FRÅNVARO</h6>
-
-              <div class="well">
-
-                <div class="article-short">
-
-                  <div class="article-content">
-                    <div class="meta">
-                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
-                    </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
-                    <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
-                    <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
-                  </div>
-
-                  <div class="meta">
-                    <ul class="meta-tags">
-                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
-                    </ul>
-                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
-                  </div>
-
+              <div class="article-content">
+                <div class="meta">
+                  <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                 </div>
-
-                <div class="article-short">
-
-                  <div class="article-content">
-                    <div class="meta">
-                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
-                    </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
-                    <h2><a href="">Jonas var hemma hela åttan</a></h2>
-                    <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
-                  </div>
-
-                  <div class="meta">
-                    <ul class="meta-tags">
-                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
-                    </ul>
-                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
-                  </div>
-
-                </div>
-
-                <div class="article-short">
-
-                  <div class="article-content">
-                    <div class="meta">
-                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
-                    </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
-                    <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
-                    <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
-                  </div>
-
-                  <div class="meta">
-                    <ul class="meta-tags">
-                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
-                    </ul>
-                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
-                  </div>
-
-                </div>
-
+                <img class="article-thumbnail alignright" width="160" src="../images/dummy-post-image.png"/>
+                <h2><a href="">LO: Förstatliga skolan</a></h2>
+                <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
               </div>
 
-              <p class="small mb-0">Läs mer om <a href="#" class="btn-primary btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-primary btn-sm ml-1">Ogiltig frånvaro</a></p>
+              <div class="meta">
+                <ul class="meta-tags">
+                  <li class="meta-tag"><a href="">Huvudmannaskap</a></li>
+                </ul>
+                <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+              </div>
 
             </div>
-
 
           </div>
 
@@ -379,7 +264,27 @@
             </div>
 
             <div class="row">
+
               <div class="col-md-6">
+
+                <div class="article-short">
+                  <div class="article-content">
+                    <h3><a href="">7 av 10 lärare utsätts för press av föräldrar</a></h3>
+                    <p class="small">En majoritet av lärarna i grund- och gymnasieskolan utsätts för påtryckningar från elevernas föräldrar, framför allt när det gäller betygsättningen, undervisningens upplägg och läxor. Det visar en undersökning av Lärarnas Riksförbund. ”Lärarna har i dag inte den auktoritet som de borde ha”, säger LR:s ordförande Åsa Fahlén.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Arbetsmiljö</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col-md-6">
+
                 <div class="article-short">
 
                   <div class="article-content">
@@ -395,10 +300,12 @@
                   </div>
 
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="article-short">
 
+              </div>
+
+              <div class="col-md-6">
+
+                <div class="article-short">
                   <div class="article-content">
                     <h3><a href="">7 av 10 lärare utsätts för press av föräldrar</a></h3>
                     <p class="small">En majoritet av lärarna i grund- och gymnasieskolan utsätts för påtryckningar från elevernas föräldrar, framför allt när det gäller betygsättningen, undervisningens upplägg och läxor. Det visar en undersökning av Lärarnas Riksförbund. ”Lärarna har i dag inte den auktoritet som de borde ha”, säger LR:s ordförande Åsa Fahlén.</p>
@@ -412,7 +319,361 @@
                   </div>
 
                 </div>
+
               </div>
+              <div class="col-md-6">
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <img class="article-thumbnail" src="../images/dummy-post-image.png">
+                    <h3><a href="">7 av 10 lärare utsätts för press av föräldrar</a></h3>
+                    <p class="small">En majoritet av lärarna i grund- och gymnasieskolan utsätts för påtryckningar från elevernas föräldrar, framför allt när det gäller betygsättningen, undervisningens upplägg och läxor. Det visar en undersökning av Lärarnas Riksförbund. ”Lärarna har i dag inte den auktoritet som de borde ha”, säger LR:s ordförande Åsa Fahlén.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Arbetsmiljö</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-12">
+            <h6 class="section-header secondary">Grupperade nyheter, special</h6>
+          </div>
+
+          <div class="col-md-6">
+
+            <div class="grouped default">
+
+              <h6 class="section-header">TEMA OGILTIG FRÅNVARO</h6>
+
+              <div class="well">
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
+                    <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Jonas var hemma hela åttan</a></h2>
+                    <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
+                    <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <p class="small mb-0">Läs mer om <a href="#" class="btn-secondary btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-secondary btn-sm ml-1">Ogiltig frånvaro</a></p>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+
+            <div class="grouped primary">
+
+              <h6 class="section-header">TEMA OGILTIG FRÅNVARO</h6>
+
+              <div class="well">
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
+                    <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Jonas var hemma hela åttan</a></h2>
+                    <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
+                    <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <p class="small mb-0">Läs mer om <a href="#" class="btn-primary btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-primary btn-sm ml-1">Ogiltig frånvaro</a></p>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+
+            <div class="grouped secondary mt-3">
+
+              <h6 class="section-header">TEMA OGILTIG FRÅNVARO</h6>
+
+              <div class="well">
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
+                    <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Jonas var hemma hela åttan</a></h2>
+                    <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
+                    <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <p class="small mb-0">Läs mer om <a href="#" class="btn-warning btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-warning btn-sm ml-1">Ogiltig frånvaro</a></p>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+
+            <div class="grouped info mt-3">
+
+              <h6 class="section-header">TEMA OGILTIG FRÅNVARO</h6>
+
+              <div class="well">
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
+                    <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Jonas var hemma hela åttan</a></h2>
+                    <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+                <div class="article-short">
+
+                  <div class="article-content">
+                    <div class="meta">
+                      <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                    </div>
+                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
+                    <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
+                  </div>
+
+                  <div class="meta">
+                    <ul class="meta-tags">
+                      <li class="meta-tag"><a href="">Lärarbrist</a></li>
+                    </ul>
+                    <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <p class="small mb-0">Läs mer om <a href="#" class="btn-danger btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-danger btn-sm ml-1">Ogiltig frånvaro</a></p>
+
             </div>
 
           </div>

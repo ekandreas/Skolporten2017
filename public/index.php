@@ -22,7 +22,7 @@
           <ul>
             <li><a href="styleguide.php">Styleguide</a></li>
             <li><a href="home.php">Startsida</a></li>
-            <li><a href="page.php">Kampanj</a></li>
+            <li><a href="landningssida.php">Landningssida</a></li>
             <li><a href="interview.php">Intervju</a></li>
             <li><a href="news.php">Fler nyheter</a></li>
             <li><a href="forms.php">Formulär</a></li>
