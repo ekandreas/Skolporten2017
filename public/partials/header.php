@@ -4,7 +4,7 @@
 
       <div class="navbar-mobile">
         <div class="container">
-          <a class="navbar-brand" href="home.php"><img src="../images/logo.png"/></a>
+          <a class="navbar-brand" href="home.php"><img src="images/logo.png"/></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
         </div>
       </div>
@@ -51,7 +51,7 @@
             <div class="row">
               <div class="col-xs-12 col-md-12 col-lg-7">
 
-                <a class="navbar-brand" href="home.php"><img src="../images/logo.png"/></a>
+                <a class="navbar-brand" href="home.php"><img src="images/logo.png"/></a>
 
                 <div class="navbar navbar-default level-1">
                   <ul class="nav navbar-nav">

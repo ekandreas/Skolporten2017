@@ -23,7 +23,14 @@
             <h2>Webbshop</h2>
             <div class="meta">
               <!-- <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a> -->
-              <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+              <div class="dropdown d-inline">
+                <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">Dela på Twitter</a></li>
+                  <li><a href="#">Dela på Facebook</a></li>
+                  <li><a href="#">Dela på LinkedIn</a></li>
+                </ul>
+              </div>
               <!-- <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a> -->
             </div>
           </div>

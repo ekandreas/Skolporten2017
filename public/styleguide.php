@@ -14,7 +14,7 @@
     <div class="row">
       <div class="col-sm-12">
 
-        <h1><a class="navbar-brand" href="#"><img src="../images/logo.png"/></a></h1>
+        <h1><a class="navbar-brand" href="#"><img src="images/logo.png"/></a></h1>
 
         <div class="well">
 
@@ -141,9 +141,20 @@
           <button class="btn btn-secondary btn-sm" type="submit">Sekundär knapp</button>
 
           <h6 class="section-header">Knapp med ikon</h6>
-          <button class="btn btn-primary btn-lg" type="submit">Primär knapp <img src="/css/gfx/arrow-right.png" class="arrow-right"/></button>
-          <button class="btn btn-primary btn-md" type="submit">Primär knapp <img src="/css/gfx/arrow-right.png" class="arrow-right"/></button>
-          <button class="btn btn-primary btn-sm" type="submit">Primär knapp <img src="/css/gfx/arrow-right.png" class="arrow-right"/></button>
+          <button class="btn btn-primary btn-lg" type="submit">Primär knapp <img src="css/gfx/arrow-right.png" class="arrow-right"/></button>
+          <button class="btn btn-primary btn-md" type="submit">Primär knapp <img src="css/gfx/arrow-right.png" class="arrow-right"/></button>
+          <button class="btn btn-primary btn-sm" type="submit">Primär knapp <img src="css/gfx/arrow-right.png" class="arrow-right"/></button>
+
+          <h6 class="section-header">Övriga knappar</h6>
+
+          <div class="dropdown d-inline">
+            <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Dela på Twitter</a></li>
+              <li><a href="#">Dela på Facebook</a></li>
+              <li><a href="#">Dela på LinkedIn</a></li>
+            </ul>
+          </div>
 
         </div>
 
@@ -170,7 +181,7 @@
                 <ul class="meta-tags">
                   <li class="meta-tag"><a href="">Huvudmannaskap</a></li>
                 </ul>
-                <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                <a href="#" class="meta-link dropdown-toggle" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
               </div>
 
             </div>
@@ -180,10 +191,17 @@
               <div class="article-content">
                 <div class="meta">
                   <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                  <div class="dropdown d-inline">
+                    <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">Dela på Twitter</a></li>
+                      <li><a href="#">Dela på Facebook</a></li>
+                      <li><a href="#">Dela på LinkedIn</a></li>
+                    </ul>
+                  </div>
                   <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                 </div>
-                <img class="article-thumbnail" src="../images/dummy-post-image.png"/>
+                <img class="article-thumbnail" src="images/dummy-post-image.png"/>
                 <h2><a href="">LO: Förstatliga skolan</a></h2>
                 <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
               </div>
@@ -202,10 +220,17 @@
               <div class="article-content">
                 <div class="meta">
                   <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                  <div class="dropdown d-inline">
+                    <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">Dela på Twitter</a></li>
+                      <li><a href="#">Dela på Facebook</a></li>
+                      <li><a href="#">Dela på LinkedIn</a></li>
+                    </ul>
+                  </div>
                   <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                 </div>
-                <img class="article-thumbnail alignleft" width="160" src="../images/dummy-post-image.png"/>
+                <img class="article-thumbnail alignleft" width="160" src="images/dummy-post-image.png"/>
                 <h2><a href="">LO: Förstatliga skolan</a></h2>
                 <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
               </div>
@@ -224,10 +249,17 @@
               <div class="article-content">
                 <div class="meta">
                   <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                  <div class="dropdown d-inline">
+                    <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">Dela på Twitter</a></li>
+                      <li><a href="#">Dela på Facebook</a></li>
+                      <li><a href="#">Dela på LinkedIn</a></li>
+                    </ul>
+                  </div>
                   <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                 </div>
-                <img class="article-thumbnail alignright" width="160" src="../images/dummy-post-image.png"/>
+                <img class="article-thumbnail alignright" width="160" src="images/dummy-post-image.png"/>
                 <h2><a href="">LO: Förstatliga skolan</a></h2>
                 <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
               </div>
@@ -326,7 +358,7 @@
                 <div class="article-short">
 
                   <div class="article-content">
-                    <img class="article-thumbnail" src="../images/dummy-post-image.png">
+                    <img class="article-thumbnail" src="images/dummy-post-image.png">
                     <h3><a href="">7 av 10 lärare utsätts för press av föräldrar</a></h3>
                     <p class="small">En majoritet av lärarna i grund- och gymnasieskolan utsätts för påtryckningar från elevernas föräldrar, framför allt när det gäller betygsättningen, undervisningens upplägg och läxor. Det visar en undersökning av Lärarnas Riksförbund. ”Lärarna har i dag inte den auktoritet som de borde ha”, säger LR:s ordförande Åsa Fahlén.</p>
                   </div>
@@ -363,10 +395,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
                     <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
                   </div>
@@ -385,10 +424,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Jonas var hemma hela åttan</a></h2>
                     <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
                   </div>
@@ -407,10 +453,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
                     <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
                   </div>
@@ -445,10 +498,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
                     <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
                   </div>
@@ -467,10 +527,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Jonas var hemma hela åttan</a></h2>
                     <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
                   </div>
@@ -489,10 +556,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
                     <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
                   </div>
@@ -527,10 +601,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
                     <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
                   </div>
@@ -549,10 +630,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Jonas var hemma hela åttan</a></h2>
                     <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
                   </div>
@@ -571,10 +659,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
                     <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
                   </div>
@@ -609,10 +704,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Locka lärare till Borås - få 15.000 kronor i bonus</a></h2>
                     <p>Annica Dahlén, förhandlingschef på Borås stad, har lanserat en lärarrekryteringsbonus för kommunens anställda.</p>
                   </div>
@@ -631,10 +733,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Jonas var hemma hela åttan</a></h2>
                     <p>Fyra elever i Sverige är hemmasittare, de går inte till skolan. “Jag försökte gå till skolan nästan varje dag, men misslyckades” säger Jonas.</p>
                   </div>
@@ -653,10 +762,17 @@
                   <div class="article-content">
                     <div class="meta">
                       <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
-                      <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-share.png"/> Dela</a>
+                      <div class="dropdown d-inline">
+                        <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Dela på Twitter</a></li>
+                          <li><a href="#">Dela på Facebook</a></li>
+                          <li><a href="#">Dela på LinkedIn</a></li>
+                        </ul>
+                      </div>
                       <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
                     </div>
-                    <!-- <img class="article-thumbnail" src="../images/dummy-post-image.png"/> -->
+                    <!-- <img class="article-thumbnail" src="images/dummy-post-image.png"/> -->
                     <h2><a href="">Allt fler frånvarande elever i Västra Götaland</a></h2>
                     <p>Siffror från Skolinspektionen visar att Västra Götaland är det län med flest beslut gällande skolfrånvaro som lett till kritik från myndigheten. I dag, måndag, anordnas ett seminarium i Angered för så kallade “hemmasittare”.</p>
                   </div>

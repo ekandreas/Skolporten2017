@@ -131,3 +131,38 @@ img {
      margin-right: 15px;
    }
 }
+
+.open>.dropdown-menu {
+    display: block;
+}
+
+.fade.in {
+    opacity: 1;
+}
+
+.collapse.in {
+    display: block;
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+a.dropdown-toggle {
+  color: $gray;
+}
+.dropdown-menu > li > a {
+  font-size: $font-size-sm;
+}
