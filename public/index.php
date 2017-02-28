@@ -43,7 +43,6 @@
             <li>Längre meny rad 2, lösa?</li>
             <li>Landningssida skiss</li>
             <li>Kontakt</li>
-            <li>Delningsfunktion</li>
             <li>Undersidor innehåll i sidbaren ist för 2 sidobarer? http://www.skolporten.se/forskning/avhandling/med-andra-ord-samspel-och-villkor-litteracitet-bland-nyanlanda-barn/</li>
           </ul>
 
