@@ -2,7 +2,8 @@ header {
   background-color: #fff;
   transition: all 0.4s ease;
   box-shadow: $header-box-shadow;
-  position: relative;
+  position: fixed;
+  top: 0;
   transition: top 0.2s ease-in-out;
   width: 100%;
   z-index: 999;
@@ -11,7 +12,13 @@ header {
   }
   @media (min-width: 990px) {
     margin-bottom: 30px;
+    position: relative;
   }
+  // @media (max-width: 990px) {
+  //   &.is-sticky {
+  //     position: absolute;
+  //   }
+  // }
 }
 
 .navbar-header {
@@ -94,7 +101,8 @@ header {
 
     @media (max-width: 990px) {
       .container {
-        margin: 0;
+        margin: 0 auto;
+        width: 95%;
       }
       padding: 10px 0px;
     }
@@ -323,16 +331,25 @@ header {
   }
 }
 
+.sticky-wrapper {
+  @media (max-width: 989px) {
+    height: auto !important;
+  }
+}
+
 .sticky.is-sticky {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
   z-index: 1000;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   transition: height 0.3s;
   width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  @media (min-width: 990px) {
+
+  }
 
   @media (min-width: 990px) {
 

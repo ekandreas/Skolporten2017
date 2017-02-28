@@ -6150,7 +6150,8 @@ header {
   background-color: #fff;
   transition: all 0.4s ease;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
-  position: relative;
+  position: fixed;
+  top: 0;
   transition: top 0.2s ease-in-out;
   width: 100%;
   z-index: 999; }
@@ -6158,7 +6159,8 @@ header {
     height: 125px; }
   @media (min-width: 990px) {
     header {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px;
+      position: relative; } }
 
 .navbar-header {
   padding: 20px 20px 0px; }
@@ -6225,7 +6227,8 @@ header {
       .navbar.level-0 {
         padding: 10px 0px; }
         .navbar.level-0 .container {
-          margin: 0; } }
+          margin: 0 auto;
+          width: 95%; } }
     .navbar.level-0 a {
       color: rgba(255, 255, 255, 0.6); }
       .navbar.level-0 a:hover {
@@ -6394,16 +6397,20 @@ header {
     .sticky {
       height: 245px; } }
 
+@media (max-width: 989px) {
+  .sticky-wrapper {
+    height: auto !important; } }
+
 .sticky.is-sticky {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
   z-index: 1000;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   transition: height 0.3s;
-  width: 100%; }
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0; }
   @media (min-width: 990px) {
     .sticky.is-sticky {
       height: 155px; }
