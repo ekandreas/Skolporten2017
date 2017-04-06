@@ -54,6 +54,54 @@
     }
   }
 
+  &.leftfacts {
+    font-size: 80%;
+    img {
+      width: auto;
+      max-width: none;
+      margin: 0 20px 70px 0;
+      float:left;
+      @media (max-width: 320px) {
+        width: 80px;
+        margin: 0 20px 0px 0;
+      }
+    }
+    // img {width: 110px;}
+    @media (min-width: 990px) {
+      width: 170px;
+      margin: 0 30px 30px 0;
+      float: left;
+      img {
+        float: none;
+        margin: 0 0px 10px 0;
+      }
+    }
+  }
+
+  &.rightfacts {
+    font-size: 80%;
+    img {
+      width: auto;
+      max-width: none;
+      margin: 0 0 70px 20px;
+      float:right;
+      @media (max-width: 320px) {
+        width: 80px;
+        margin: 0 20px 0px 0;
+      }
+    }
+    // img {width: 110px;}
+    @media (min-width: 990px) {
+      width: 170px;
+      margin: 0 0 30px 30px;
+      float: right;
+      img {
+        float: none;
+        margin: 0 0px 10px 0;
+      }
+    }
+  }
+
   &.conferences {
     background: #1789b1;
     border-radius: 3px;
