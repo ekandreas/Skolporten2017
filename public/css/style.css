@@ -6194,7 +6194,7 @@ header {
       background: rgba(0, 0, 0, 0.15);
       height: 34px;
       text-indent: 8px;
-      color: rgba(255, 255, 255, 0.7);
+      color: #fff;
       width: 100%; }
       .navbar-search input.search-input:focus {
         background: rgba(0, 0, 0, 0.4);
@@ -6206,6 +6206,16 @@ header {
       position: absolute;
       top: 7px;
       right: 10px; }
+  .navbar-search input::-webkit-input-placeholder {
+    color: #fff !important; }
+  .navbar-search input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff !important; }
+  .navbar-search input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff !important; }
+  .navbar-search input:-ms-input-placeholder {
+    color: #fff !important; }
 
 .navbar {
   padding: 5px 0;
@@ -6638,6 +6648,44 @@ header {
         margin: 0 30px 30px 0;
         float: left; }
         .widget.interview img {
+          float: none;
+          margin: 0 0px 10px 0; } }
+  .widget.leftfacts {
+    font-size: 80%; }
+    .widget.leftfacts img {
+      width: auto;
+      max-width: none;
+      margin: 0 20px 70px 0;
+      float: left; }
+      @media (max-width: 320px) {
+        .widget.leftfacts img {
+          width: 80px;
+          margin: 0 20px 0px 0; } }
+    @media (min-width: 990px) {
+      .widget.leftfacts {
+        width: 170px;
+        margin: 0 30px 30px 0;
+        float: left; }
+        .widget.leftfacts img {
+          float: none;
+          margin: 0 0px 10px 0; } }
+  .widget.rightfacts {
+    font-size: 80%; }
+    .widget.rightfacts img {
+      width: auto;
+      max-width: none;
+      margin: 0 0 70px 20px;
+      float: right; }
+      @media (max-width: 320px) {
+        .widget.rightfacts img {
+          width: 80px;
+          margin: 0 20px 0px 0; } }
+    @media (min-width: 990px) {
+      .widget.rightfacts {
+        width: 170px;
+        margin: 0 0 30px 30px;
+        float: right; }
+        .widget.rightfacts img {
           float: none;
           margin: 0 0px 10px 0; } }
   .widget.conferences {
