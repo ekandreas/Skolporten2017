@@ -6002,7 +6002,7 @@ h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5 {
-  color: #38A7CE; }
+  color: #333; }
 
 body {
   background-color: #FAFAFA;
@@ -6207,15 +6207,15 @@ header {
       top: 7px;
       right: 10px; }
   .navbar-search input::-webkit-input-placeholder {
-    color: #fff !important; }
+    color: #ccc; }
   .navbar-search input:-moz-placeholder {
     /* Firefox 18- */
-    color: #fff !important; }
+    color: #ccc; }
   .navbar-search input::-moz-placeholder {
     /* Firefox 19+ */
-    color: #fff !important; }
+    color: #ccc; }
   .navbar-search input:-ms-input-placeholder {
-    color: #fff !important; }
+    color: #ccc; }
 
 .navbar {
   padding: 5px 0;
