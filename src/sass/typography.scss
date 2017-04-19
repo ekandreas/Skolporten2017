@@ -20,3 +20,40 @@ h4, .h4,
 h5, .h5 {
   color: #333; //$brand-primary;
 }
+
+h1, .h1 {
+  @media (max-width: 990px) {
+      font-size: $font-size-h1 * 0.7;
+  }
+}
+
+h2, .h2 {
+  @media (max-width: 990px) {
+      font-size: $font-size-h2 * 0.7;
+  }
+}
+
+h3, .h3 {
+  @media (max-width: 990px) {
+    font-size: $font-size-h3 * 0.7;
+  }
+}
+
+h4, .h4 {
+  @media (max-width: 990px) {
+    font-size: $font-size-h4 * 0.7;
+  }
+}
+
+h5, .h5 {
+  @media (max-width: 990px) {
+    font-size: $font-size-h5 * 0.7;
+  }
+}
+
+h6, .h6 {
+  @media (max-width: 990px) {
+    font-size: $font-size-h6 * 0.7;
+  }
+}
+
