@@ -479,7 +479,7 @@
 
               </div>
 
-              <p class="small mb-0">Läs mer om <a href="#" class="btn-secondary btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-secondary btn-sm ml-1">Ogiltig frånvaro</a></p>
+              <p class="small mb-0">Läs mer om <a href="#" class="btn-secondary btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-secondary btn-sm ml-1">Ogiltig frånvaro</a> <a href="#" class="btn-secondary btn-sm ml-1">Skolk</a> <a href="#" class="btn-secondary btn-sm ml-1">Tar hellre rast</a> <a href="#" class="btn-secondary btn-sm ml-1">Ointresserad</a></p>
 
             </div>
 
