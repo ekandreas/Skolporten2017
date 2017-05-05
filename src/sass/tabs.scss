@@ -16,7 +16,7 @@
       padding-left: 0;
     }
     &.active, &:hover {
-      color: #38A7CE;
+      color: $header-color;
       opacity: 1;
     }
     opacity: .3;

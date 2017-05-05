@@ -18,7 +18,17 @@ h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5 {
-  color: #1889B1; //$brand-primary;
+  // color: #1889B1; //$brand-primary;
+  color: $header-color;
+}
+
+h1 a, .h1 a,
+h2 a, .h2 a,
+h3 a, .h3 a,
+h4 a, .h4 a,
+h5 a, .h5 a {
+  // color: #1889B1; //$brand-primary;
+  color: $header-color;
 }
 
 h1, .h1 {
