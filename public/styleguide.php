@@ -480,11 +480,11 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-2 mr-0 pr-0">
+                <div class="col-3 col-sm-2 col-md-3 mr-0 pr-0">
                   <p class="small mb-0">Läs mer om<p>
                 </div>
 
-                <div class="col-sm-10 ml-0 pl-2">
+                <div class="col-9 col-sm-10 col-md-9 ml-0 pl-2">
                   <ul class="meta-tags">
                     <li class="meta-tag"><a href="#" class="btn-secondary btn-sm">Lärarbrist</a></li>
                     <li class="meta-tag"><a href="#" class="btn-secondary btn-sm">Ogiltig frånvaro</a></li>
@@ -599,11 +599,11 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-2 mr-0 pr-0">
+                <div class="col-3 col-sm-2 col-md-3 mr-0 pr-0">
                   <p class="small mb-0">Läs mer om<p>
                 </div>
 
-                <div class="col-sm-10 ml-0 pl-2">
+                <div class="col-9 col-sm-10 col-md-9 ml-0 pl-2">
                   <ul class="meta-tags">
                     <li class="meta-tag"><a href="#" class="btn-primary btn-sm">Ogiltig frånvaro</a></li>
                   </ul>
@@ -713,11 +713,11 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-2 mr-0 pr-0">
+                <div class="col-3 col-sm-2 col-md-3 mr-0 pr-0">
                   <p class="small mb-0">Läs mer om<p>
                 </div>
 
-                <div class="col-sm-10 ml-0 pl-2">
+                <div class="col-9 col-sm-10 col-md-9 ml-0 pl-2">
                   <ul class="meta-tags">
                     <li class="meta-tag"><a href="#" class="btn-warning btn-sm">Ogiltig frånvaro</a></li>
                   </ul>
@@ -827,12 +827,20 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-2 mr-0 pr-0">
+                <div class="col-3 col-sm-2 col-md-3 mr-0 pr-0">
                   <p class="small mb-0">Läs mer om<p>
                 </div>
 
-                <div class="col-sm-10 ml-0 pl-2">
+                <div class="col-9 col-sm-10 col-md-9 ml-0 pl-2">
                   <ul class="meta-tags">
+                    <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
                     <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
                   </ul>
                 </div>
