@@ -479,7 +479,23 @@
 
               </div>
 
-              <p class="small mb-0">Läs mer om <a href="#" class="btn-secondary btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-secondary btn-sm ml-1">Ogiltig frånvaro</a> <a href="#" class="btn-secondary btn-sm ml-1">Skolk</a> <a href="#" class="btn-secondary btn-sm ml-1">Tar hellre rast</a> <a href="#" class="btn-secondary btn-sm ml-1">Ointresserad</a></p>
+              <div class="row">
+                <div class="col-sm-2 mr-0 pr-0">
+                  <p class="small mb-0">Läs mer om<p>
+                </div>
+
+                <div class="col-sm-10 ml-0 pl-2">
+                  <ul class="meta-tags">
+                    <li class="meta-tag"><a href="#" class="btn-secondary btn-sm">Lärarbrist</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-secondary btn-sm">Ogiltig frånvaro</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-secondary btn-sm">Skolk</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-secondary btn-sm">Tar hellre rast</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-secondary btn-sm">Ointresserad</a></li>
+                    <li class="meta-tag"><a href="#" class="btn-secondary btn-sm">Skolkar</a></li></p>
+                  </ul>
+                </div>
+
+              </div>
 
             </div>
 
@@ -582,7 +598,18 @@
 
               </div>
 
-              <p class="small mb-0">Läs mer om <a href="#" class="btn-primary btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-primary btn-sm ml-1">Ogiltig frånvaro</a></p>
+              <div class="row">
+                <div class="col-sm-2 mr-0 pr-0">
+                  <p class="small mb-0">Läs mer om<p>
+                </div>
+
+                <div class="col-sm-10 ml-0 pl-2">
+                  <ul class="meta-tags">
+                    <li class="meta-tag"><a href="#" class="btn-primary btn-sm">Ogiltig frånvaro</a></li>
+                  </ul>
+                </div>
+
+              </div>
 
             </div>
 
@@ -685,7 +712,18 @@
 
               </div>
 
-              <p class="small mb-0">Läs mer om <a href="#" class="btn-warning btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-warning btn-sm ml-1">Ogiltig frånvaro</a></p>
+              <div class="row">
+                <div class="col-sm-2 mr-0 pr-0">
+                  <p class="small mb-0">Läs mer om<p>
+                </div>
+
+                <div class="col-sm-10 ml-0 pl-2">
+                  <ul class="meta-tags">
+                    <li class="meta-tag"><a href="#" class="btn-warning btn-sm">Ogiltig frånvaro</a></li>
+                  </ul>
+                </div>
+
+              </div>
 
             </div>
 
@@ -788,7 +826,18 @@
 
               </div>
 
-              <p class="small mb-0">Läs mer om <a href="#" class="btn-danger btn-sm ml-2">Lärarbrist</a> <a href="#" class="btn-danger btn-sm ml-1">Ogiltig frånvaro</a></p>
+              <div class="row">
+                <div class="col-sm-2 mr-0 pr-0">
+                  <p class="small mb-0">Läs mer om<p>
+                </div>
+
+                <div class="col-sm-10 ml-0 pl-2">
+                  <ul class="meta-tags">
+                    <li class="meta-tag"><a href="#" class="btn-danger btn-sm">Ogiltig frånvaro</a></li>
+                  </ul>
+                </div>
+
+              </div>
 
             </div>
 

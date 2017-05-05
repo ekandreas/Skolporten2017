@@ -76,3 +76,17 @@
   margin-top: 50px;
   margin-bottom: 80px;
 }
+
+.meta-tags {
+  list-style-type: none;
+  margin: 0 5px 0 0;
+  padding: 0;
+  display: inline-block;
+  .meta-tag {
+    display: inline-block;
+    // padding: 2px 5px;
+    margin-bottom: 3px;
+    a {
+    }
+  }
+}
