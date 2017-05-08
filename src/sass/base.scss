@@ -166,3 +166,9 @@ a.dropdown-toggle {
 .dropdown-menu > li > a {
   font-size: $font-size-sm;
 }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

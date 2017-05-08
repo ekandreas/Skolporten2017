@@ -24,26 +24,12 @@
             <li><a href="home.php">Startsida</a></li>
             <li><a href="landningssida.php">Landningssida</a> (EJ KLAR)</li>
             <li><a href="interview.php">Intervju</a></li>
+            <li><a href="avhandlingar.php">Avhandlningar</a></li>
             <li><a href="news.php">Fler nyheter</a></li>
             <li><a href="forms.php">Formulär</a> (EJ KLAR)</li>
             <li><a href="contact.php">Kontakt</a> (EJ KLAR)</li>
             <li><a href="webshop.php">Webbshop</a></li>
             <li><a href="404.php">404</a></li>
-          </ul>
-
-        </div>
-
-        <div class="well">
-
-          <h6 class="section-header">TODO</h6>
-          <ul>
-            <li>Undermeny/fördjupning på sidor horizontalt likt tabbarna</li>
-            <li>Nav buggar i mobilt läge</li>
-            <li>760 i flödet / banners ej stretcha</li>
-            <li>Längre meny rad 2, lösa?</li>
-            <li>Landningssida skiss</li>
-            <li>Kontakt</li>
-            <li>Undersidor innehåll i sidbaren ist för 2 sidobarer? http://www.skolporten.se/forskning/avhandling/med-andra-ord-samspel-och-villkor-litteracitet-bland-nyanlanda-barn/</li>
           </ul>
 
         </div>
