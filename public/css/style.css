@@ -6178,6 +6178,11 @@ ul, li {
   padding: 0;
   list-style-type: none; }
 
+.styleguide h6 {
+  margin-top: 40px; }
+  .styleguide h6:first-of-type {
+    margin-top: 0; }
+
 header {
   background-color: #fff;
   transition: all 0.4s ease;
@@ -6581,6 +6586,18 @@ header {
     .nav-tabs .nav-tab-item-link.active, .nav-tabs .nav-tab-item-link:hover {
       color: #1789B1;
       opacity: 1; }
+  .nav-tabs.filled {
+    margin-bottom: 2px;
+    margin-left: -1px; }
+    .nav-tabs.filled .nav-tab-item-link {
+      padding: 10px 15px; }
+      .nav-tabs.filled .nav-tab-item-link.active {
+        background: #fff;
+        padding: 10px 20px;
+        border: 1px solid rgba(0, 0, 0, 0.07);
+        border-top: 0px solid transparent;
+        border-bottom: 0px solid transparent;
+        border-radius: 4px 4px 0 0; }
 
 .btn {
   border-radius: 3px;

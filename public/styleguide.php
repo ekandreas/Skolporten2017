@@ -7,7 +7,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="css/style.css" rel="stylesheet">
   </head>
-<body>
+<body class="styleguide">
 
   <div class="container">
 
@@ -158,7 +158,109 @@
 
         </div>
 
-      </div>
+        <div class="well light">
+
+          <div class="row">
+
+            <div class="col-md-6">
+
+              <h6 class="section-header">TABBAR</h6>
+
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-tab-item">
+                  <a class="nav-tab-item-link active" data-toggle="tab" href="##" role="tab">Senaste nytt</a>
+                </li>
+                <li class="nav-tab-item">
+                  <a class="nav-tab-item-link" data-toggle="tab" href="##" role="tab">Gårdagens</a>
+                </li>
+                <li class="nav-tab-item">
+                  <a class="nav-tab-item-link" data-toggle="tab" href="##" role="tab">Veckans mest lästa</a>
+                </li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content well">
+                <div class="tab-pane active" id="#" role="tabpanel">
+
+                  <div class="article-short">
+
+                    <div class="article-content">
+                      <h2><a href="">LO: Förstatliga skolan</a></h2>
+                      <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
+                    </div>
+
+                    <div class="meta">
+                      <ul class="meta-tags">
+                        <li class="meta-tag"><a href="">Huvudmannaskap</a></li>
+                      </ul>
+                      <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="tab-pane" id="" role="tabpanel">
+                </div>
+
+                <div class="tab-pane" id="#" role="tabpanel">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+              <h6 class="section-header">TABBAR MED BAKGRUNDSPLATTA</h6>
+
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs filled" role="tablist">
+                <li class="nav-tab-item">
+                  <a class="nav-tab-item-link active" data-toggle="tab" href="##" role="tab">Senaste nytt</a>
+                </li>
+                <li class="nav-tab-item">
+                  <a class="nav-tab-item-link" data-toggle="tab" href="##" role="tab">Gårdagens</a>
+                </li>
+                <li class="nav-tab-item">
+                  <a class="nav-tab-item-link" data-toggle="tab" href="##" role="tab">Veckans mest lästa</a>
+                </li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content well">
+                <div class="tab-pane active" id="#" role="tabpanel">
+
+                  <div class="article-short">
+
+                    <div class="article-content">
+                      <h2><a href="">LO: Förstatliga skolan</a></h2>
+                      <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
+                    </div>
+
+                    <div class="meta">
+                      <ul class="meta-tags">
+                        <li class="meta-tag"><a href="">Huvudmannaskap</a></li>
+                      </ul>
+                      <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="tab-pane" id="" role="tabpanel">
+                </div>
+
+                <div class="tab-pane" id="#" role="tabpanel">
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
 
       <div class="well light">
 
@@ -261,6 +363,71 @@
                 </div>
                 <img class="article-thumbnail alignright" width="160" src="images/dummy-post-image.png"/>
                 <h2><a href="">LO: Förstatliga skolan</a></h2>
+                <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
+              </div>
+
+              <div class="meta">
+                <ul class="meta-tags">
+                  <li class="meta-tag"><a href="">Huvudmannaskap</a></li>
+                </ul>
+                <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+              </div>
+
+            </div>
+
+            <h6 class="section-header secondary">DATUM OCH DELNINGSFUNKTIONER UNDER INNEHÅLLET</h6>
+
+            <div class="article-short well">
+
+              <div class="article-content">
+                <img class="article-thumbnail alignright" width="160" src="images/dummy-post-image.png"/>
+                <h2><a href="">LO: Förstatliga skolan</a></h2>
+                <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
+              </div>
+
+              <div class="meta">
+                <ul class="meta-tags">
+                  <li class="meta-tag"><a href="">Huvudmannaskap</a></li>
+                </ul>
+                <a href="#" class="meta-link" target="_blank">Skolvärlden <img src="css/gfx/icon-link.png"/></a>
+              </div>
+
+              <div class="meta">
+                <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                <div class="dropdown d-inline">
+                  <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Dela på Twitter</a></li>
+                    <li><a href="#">Dela på Facebook</a></li>
+                    <li><a href="#">Dela på LinkedIn</a></li>
+                  </ul>
+                </div>
+                <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+              </div>
+
+            </div>
+
+            <h6 class="section-header secondary">DATUM UNDER RUBIRKEN</h6>
+
+            <div class="article-short well">
+
+              <div class="article-content">
+                <div class="meta">
+                  <div class="dropdown d-inline">
+                    <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">Dela på Twitter</a></li>
+                      <li><a href="#">Dela på Facebook</a></li>
+                      <li><a href="#">Dela på LinkedIn</a></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+                </div>
+                <img class="article-thumbnail alignright" width="160" src="images/dummy-post-image.png"/>
+                <h2><a href="">LO: Förstatliga skolan</a></h2>
+                <div class="meta">
+                  <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+                </div>
                 <p>Pisa-mätningarna visar att den svenska skolan har blivit mindre likvärdig. Nu uttalar sig LO i frågan och säger att ”ett förstatligande av skolan bör övervägas”.</p>
               </div>
 
