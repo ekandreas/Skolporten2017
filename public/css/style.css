@@ -6674,6 +6674,35 @@ header {
 .shop-item img {
   width: 100%; }
 
+.cover {
+  position: relative;
+  width: 100%;
+  height: 390px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: -60px; }
+  .cover:after {
+    background: rgba(0, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0; }
+  .cover .cover-content {
+    margin: 150px 0 0;
+    z-index: 1;
+    position: relative;
+    color: #fff; }
+    .cover .cover-content .cover-title {
+      font-family: "Nunito", sans-serif;
+      color: #fff;
+      background: #1889B1;
+      display: inline-block;
+      padding: 5px 10px 10px; }
+
 .widget {
   margin-bottom: 30px; }
   .widget .section-header {
