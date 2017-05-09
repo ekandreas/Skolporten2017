@@ -165,6 +165,54 @@
           <div class="row">
             <div class="col-sm-8">
 
+              <div class="banner-area pl-5">
+                <h6 class="banner-title rotated">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/exempel_annons.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-4">
+
+              <div class="banner-area">
+                <h6 class="banner-title">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/exempel_annons.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-8">
+
+              <div class="banner-area fill pl-5">
+                <h6 class="banner-title rotated">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/exempel_annons.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-4">
+
+              <div class="banner-area">
+                <h6 class="banner-title">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/exempel_annons.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-8">
+
               <div class="banner-area">
                 <h6 class="banner-title">ANNONS:</h6>
                 <div class="banner-content">
