@@ -160,6 +160,138 @@
 
         <div class="well light">
 
+          <h6 class="section-header">ANNONSER</h6>
+
+          <div class="row">
+            <div class="col-sm-8">
+
+              <div class="banner-area">
+                <h6 class="banner-title">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-4">
+
+              <div class="banner-area">
+                <h6 class="banner-title">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner2.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+
+              <div class="banner-area fill pl-5">
+                <h6 class="banner-title rotated">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+
+              <div class="banner-area fill pl-5">
+                <h6 class="banner-title rotated">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-6">
+
+              <div class="banner-area fill pl-5">
+                <h6 class="banner-title rotated">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+
+              <div class="banner-area fill pl-5">
+                <h6 class="banner-title rotated">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-7">
+
+              <div class="banner-area fill pl-5">
+                <h6 class="banner-title rotated">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-4 offset-sm-1">
+
+              <div class="banner-area fill pl-5">
+                <h6 class="banner-title rotated">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner2.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-sm-7">
+
+              <div class="banner-area fill pl-3">
+                <h6 class="banner-title">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-4 offset-sm-1">
+
+              <div class="banner-area fill pl-3">
+                <h6 class="banner-title">ANNONS:</h6>
+                <div class="banner-content">
+                  <a href=""><img src="images/example-banner2.png"/></a></a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="well light">
+
           <div class="row">
 
             <div class="col-md-6">

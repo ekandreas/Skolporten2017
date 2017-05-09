@@ -1,15 +1,27 @@
 .banner-area {
   margin: 20px 0 50px;
+  position: relative;
   .banner-title {
     font-size: $font-size-xs;
     font-weight: 400;
+    &.rotated {
+      display: inline-block;
+      transform: rotate(-90deg);
+      position: absolute;
+      top: 45%;
+      left: 0px;
+    }
   }
   .banner-content {
     a {}
     img {
       display: block;
-      max-width: 100%;
-      width: 100%;
+      // max-width: 100%;
+      // width: 100%;
     }
+  }
+  &.fill {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 10px;
   }
 }
