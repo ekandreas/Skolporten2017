@@ -22,13 +22,14 @@
           <ul>
             <li><a href="styleguide.php">Styleguide</a></li>
             <li><a href="home.php">Startsida</a></li>
-            <li><a href="landningssida.php">Landningssida</a> (EJ KLAR)</li>
+            <li><a href="landningssida.php">Landningssida</a></li>
             <li><a href="interview.php">Intervju</a></li>
             <li><a href="avhandlingar.php">Avhandlningar</a></li>
             <li><a href="news.php">Fler nyheter</a></li>
             <li><a href="forms.php">Formulär</a> (EJ KLAR)</li>
             <li><a href="contact.php">Kontakt</a> (EJ KLAR)</li>
             <li><a href="webshop.php">Webbshop</a></li>
+            <li><a href="press.php">Press</a></li>
             <li><a href="404.php">404</a></li>
           </ul>
 
