@@ -1,5 +1,5 @@
 <!-- Nav tabs -->
-<ul class="nav nav-tabs" role="tablist">
+<ul class="nav nav-tabs filled" role="tablist">
   <li class="nav-tab-item">
     <a class="nav-tab-item-link active" data-toggle="tab" href="#latest-news" role="tab">Senaste nytt</a>
   </li>

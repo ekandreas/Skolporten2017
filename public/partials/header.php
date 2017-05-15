@@ -57,15 +57,103 @@
                   <ul class="nav navbar-nav">
                     <li class="nav-item active">
                       <a class="nav-item nav-link active" href="#">Nyheter</a>
+
+                      <ul class="nav subnav-navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-item nav-link active" href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                      </ul>
+
                     </li>
                     <li class="nav-item">
                       <a class="nav-item nav-link " href="#">Fou</a>
+
+                      <ul class="nav subnav-navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-item nav-link active" href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                      </ul>
+
                     </li>
                     <li class="nav-item">
                       <a class="nav-item nav-link " href="#">Kompetensutveckling</a>
+
+                      <ul class="nav subnav-navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-item nav-link active" href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                      </ul>
+
                     </li>
                     <li class="nav-item">
                       <a class="nav-item nav-link " href="#">Karriär</a>
+
+                      <ul class="nav subnav-navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-item nav-link active" href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-item nav-link " href="#">Item</a>
+                        </li>
+                      </ul>
+
                     </li>
                   </ul>
                 </div>
