@@ -365,19 +365,25 @@ header {
 
   @media (min-width: 990px) {
 
-  height: 155px;
+  height: 165px;
 
     .navbar-header {
-      padding-top: 0px;
+      padding-top: 15px;
     }
     .navbar-brand {
-      opacity: 0;
-      margin-top: -60px;
+      opacity: 1;
+      margin-top: 0px;
       -webkit-transition: all 0.1s;
       -moz-transition: all 0.1s;
       transition: all 0.1s;
+      float: left;
+      margin-right: 20px;
       img {
+        height: 30px;
       }
+    }
+    .level-1 {
+      margin-top: -2px
     }
     #news-carousel {
       opacity: 0;
