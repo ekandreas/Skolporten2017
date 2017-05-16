@@ -298,11 +298,12 @@ header {
 
 }
 
-@media (min-width: 576px) {
-  .navbar-toggleable-xs {
-      display: none !important;
-  }
-}
+// iPad bug sliding down.
+//@media (min-width: 576px) {
+//  .navbar-toggleable-xs {
+//      display: none !important;
+//  }
+//}
 
 @media (min-width: 990px) {
   .navbar-toggleable-xs {
