@@ -214,12 +214,6 @@
                   <a class="nav-item nav-link active" href="#">Fler nyheter</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-item nav-link " href="#">Risknyheter</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-item nav-link " href="#">Lokala nyheter</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-item nav-link " href="#">Rapporter</a>
                 </li>
                 <li class="nav-item">
