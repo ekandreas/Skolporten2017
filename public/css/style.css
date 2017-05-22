@@ -5997,13 +5997,19 @@ h6,
   color: inherit;
   text-transform: uppercase; }
 
+.article-content h1, .article-content .h1,
+.article-content h2, .article-content .h2,
+.article-content h3, .article-content .h3,
+.article-content h4, .article-content .h4,
+.article-content h5, .article-content .h5 {
+  margin-top: 30px; }
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5 {
-  color: #1789B1;
-  margin-top: 30px; }
+  color: #1789B1; }
 
 h1 a, .h1 a,
 h2 a, .h2 a,

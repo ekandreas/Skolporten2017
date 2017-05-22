@@ -13,6 +13,14 @@ h6,
   text-transform: uppercase;
 }
 
+.article-content h1, .article-content .h1,
+.article-content h2, .article-content .h2,
+.article-content h3, .article-content .h3,
+.article-content h4, .article-content .h4,
+.article-content h5, .article-content .h5 {
+  margin-top: 30px;
+}
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -20,7 +28,7 @@ h4, .h4,
 h5, .h5 {
   // color: #1889B1; //$brand-primary;
   color: $header-color;
-  margin-top: 30px;
+  // margin-top: 30px;
 }
 
 h1 a, .h1 a,
