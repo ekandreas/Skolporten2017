@@ -66,7 +66,7 @@
                 <dd><a href="">Lorem ipsum dolor</a></dd>
               </dl>
 
-              <a class="btn btn-primary btn-sm mt-2" href="">Läs hela avhandlingen (pdf) <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+              <a class="btn btn-primary btn-sm mt-2" href="">Läs hela avhandlingen <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 
             </div>
 

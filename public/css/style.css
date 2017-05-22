@@ -6075,7 +6075,7 @@ a {
     margin-bottom: 10px; }
 
 .section-header {
-  margin: 60px 0 20px;
+  margin: 30px 0 20px;
   font-weight: 800; }
   .section-header.secondary {
     font-weight: normal;
@@ -6504,7 +6504,7 @@ header {
   top: 0; }
   @media (min-width: 990px) {
     .sticky.is-sticky {
-      height: 165px; }
+      height: 170px; }
       .sticky.is-sticky .navbar-header {
         padding-top: 15px; }
       .sticky.is-sticky .navbar-brand {
@@ -6577,7 +6577,8 @@ header {
         opacity: 1; }
 
 .article-short {
-  margin: 0 0 30px; }
+  margin: 0 0 30px;
+  overflow: hidden; }
 
 .article-thumbnail {
   margin-bottom: 10px; }
@@ -6750,7 +6751,7 @@ header {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07); }
 
 .banner-area {
-  margin: 20px 0 50px;
+  margin: 20px 0 30px;
   position: relative; }
   .banner-area .banner-title {
     font-size: 0.75rem;
