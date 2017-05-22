@@ -17,6 +17,22 @@ header {
   @media (max-width: 990px) {
     &.is-sticky {
       position: absolute !important;
+      .navbar-mobile {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 3;
+        box-shadow: $header-box-shadow;
+      }
+      .level-0 {
+        position: fixed;
+        top: 66px;
+        width: 100%;
+      }
+      .level-1 {
+          padding-top: 200px;
+      }
     }
   }
 }
@@ -25,6 +41,7 @@ header {
   padding: $navbar-header-padding-y $navbar-header-padding-x 0px;
   @media (max-width: 990px) {
     padding: 0px $navbar-header-padding-x 0px;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.12);
   }
   .navbar-brand {
     @media (max-width: 990px) {
@@ -146,6 +163,9 @@ header {
       }
       opacity: .3;
       color: rgba(0,0,0,1)
+    }
+    @media (max-width: 990px){
+        padding-top: 20px;
     }
   }
   &.level-2 {
