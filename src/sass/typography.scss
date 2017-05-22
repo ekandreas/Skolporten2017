@@ -20,6 +20,7 @@ h4, .h4,
 h5, .h5 {
   // color: #1889B1; //$brand-primary;
   color: $header-color;
+  margin-top: 30px;
 }
 
 h1 a, .h1 a,
@@ -33,31 +34,31 @@ h5 a, .h5 a {
 
 h1, .h1 {
   @media (max-width: 990px) {
-      font-size: $font-size-h1 * 0.7;
+      font-size: $font-size-h1 * 0.9;
   }
 }
 
 h2, .h2 {
   @media (max-width: 990px) {
-      font-size: $font-size-h2 * 0.7;
+      font-size: $font-size-h2 * 0.9;
   }
 }
 
 h3, .h3 {
   @media (max-width: 990px) {
-    font-size: $font-size-h3 * 0.7;
+    font-size: $font-size-h3 * 0.9;
   }
 }
 
 h4, .h4 {
   @media (max-width: 990px) {
-    font-size: $font-size-h4 * 0.7;
+    font-size: $font-size-h4 * 0.9;
   }
 }
 
 h5, .h5 {
   @media (max-width: 990px) {
-    font-size: $font-size-h5 * 0.7;
+    font-size: $font-size-h5 * 0.9;
   }
 }
 

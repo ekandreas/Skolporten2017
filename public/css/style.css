@@ -6002,7 +6002,8 @@ h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5 {
-  color: #1789B1; }
+  color: #1789B1;
+  margin-top: 30px; }
 
 h1 a, .h1 a,
 h2 a, .h2 a,
@@ -6013,23 +6014,23 @@ h5 a, .h5 a {
 
 @media (max-width: 990px) {
   h1, .h1 {
-    font-size: 1.75rem; } }
+    font-size: 2.25rem; } }
 
 @media (max-width: 990px) {
   h2, .h2 {
-    font-size: 1.4rem; } }
+    font-size: 1.8rem; } }
 
 @media (max-width: 990px) {
   h3, .h3 {
-    font-size: 1.05rem; } }
+    font-size: 1.35rem; } }
 
 @media (max-width: 990px) {
   h4, .h4 {
-    font-size: 0.98rem; } }
+    font-size: 1.26rem; } }
 
 @media (max-width: 990px) {
   h5, .h5 {
-    font-size: 0.777rem; } }
+    font-size: 0.999rem; } }
 
 p {
   margin-bottom: 0.4rem; }
@@ -6221,6 +6222,33 @@ ul, li {
         background: #38A7CE;
         cursor: pointer;
         color: #fff; }
+
+.lead {
+  margin-bottom: 20px; }
+
+.card {
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.07);
+  margin-bottom: 20px;
+  border: 0px solid transparent; }
+
+.card-header {
+  padding: 15px 20px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07);
+  border: 0px solid transparent; }
+  .card-header .toggle {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    color: #d8d8d8; }
+  .card-header a {
+    display: block; }
+    .card-header a:hover {
+      text-decoration: none; }
+  .card-header .collapsed .toggle {
+    transform: rotate(-180deg); }
+  .card-header h5 {
+    padding-top: 0;
+    margin-top: 5px; }
 
 header {
   background-color: #fff;

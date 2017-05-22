@@ -121,6 +121,83 @@
 
         </div>
 
+        <div class="well light">
+
+          <div class="row">
+
+            <div class="col-md-12">
+
+              <h6 class="section-header">Accordions</h6>
+
+              <div id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingOne">
+                    <h5 class="mb-0">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Det plingar och vibrerar i  min mobil på natten. Det stör mig. Varför kan ni inte skicka brev på dagtid?
+                        <span class="toggle">
+                          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </span>
+                      </a>
+                    </h5>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="card-block">
+                      Vi skickar breven på natten därför att det är den tidpunkt då det belastar huvudmannens server som minst. I större kommuner finns det många lärare, och då är ofta många av dem prenumeranter hos oss. Utskicken kan då komma att bli en stor belastning på kommunens server. Men inte vill vi störa din nattsömn! När man sätter en mobiltelefon på ljudlös, kan man ofta ställa in om den då ska vibrera eller ej. Stäng av den funktionen om vibrationerna stör dig, så kommer telefonen vara alldeles tyst. Om du har iphone så finns nattläget ”stör ej” under inställningar, den har symbolen av en liten måne. När aktiverad bör den låta dig sova ostörd, men du kan fortfarande bli uppringd av dina favoritnummer om så behövs.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Jag får breven men de har en underlig formatering. Länkarna fungerar inte. Vad gör jag?
+                        <span class="toggle">
+                          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </span>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-block">
+                      Du använder dig av First Class som epostklient. Den klarar inte HTML, utan lägger då själva brevet som en bifogad fil. Då får man använda sig av (dvs öppna) den bifogade filen istället för att klicka på länkarna.
+    Du använder Outlook som epostklient. Det kan då vara så att Outlook klassar mailet som spam (skräp). I Outlook kan du klicka på avsändaren och lägga till den som ”betrodd avsändare” eller helt enkelt lägga till avsändaradressen i din adressbok (tex therese.mabon[a]skolporten.se). Det signalerar till systemet att nyhetsbrevet inte är spam. Läs mer här. Gör man det så brukar länkarna börja fungera igen.
+    Du har en en vidarebefordran på din e-post. Titta längst ner i det nyhetsbrev du har fått från oss, där står alltid vilken e-postadress vi har skickat till. Stämmer det med den e-postadress du använder? Om inte, så kan det vara så att brevet skickas vidare från ett konto till ett annat. Det kan också vara så att er IT avdelning har gjort en vidarebefordran utan att du känner till det, ofta i samband med att man har bytt systematiken på e-postadresserna, tex från @utb.kristiandstad.se till @kristianstad.se. Sker en sådan vidarebefordran, så blir ofta nyhetsbrevets formatering konstig på vägen. Kontakta oss på info@skolporten.se så registerar vi om din prenumeration på rätt adress.
+    Brevet spamklassas på central nivå. Då måste din IT-avdelning kontaktas för att vitlista Skolportens utskick. Mejla till oss på info@skolporten.se så försöker vi hjälpa till.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingThree">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Jag får inga nyhetsbrev trots att jag har registrerat mig?
+                        <span class="toggle">
+                          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </span>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="card-block">
+                      När du först anmälde dig fick du ett mail med en aktiveringslänk du skulle klicka på för att bekräfta din prenumeration. Om du inte har gjort det eller fått mejlet (som då antagligen har hamnat i din skräpkorg) måste du kontakta oss: info@skolporten.se
+    Nyhetsbrevet hamnar i din skräpkorg. Kika där, och hittar du brevet där så ange att ”Detta är inte skräppost.” Lägg även till nyhetsbrevets avsändaradress i din adressbok, så ökar du chanserna för att det når fram.
+    Du har lyckats avregistrera dig. I varje brev finns en länk som heter ”avregistrera mig från detta utskick” längst ner. Du kan inte skapa en ny prenumeration på egen hand utan måste då kontakta oss för återaktivering.
+    Du har bytt e-postadress (du kanske har bytt jobb?) eller ändrat din e-postadress (tex: du hade sven.svenfors@norrkoping.se tidigare, nu har du sven.svenfors@edu.norrkoping.se).
+    Detta löser du genom att uppdatera dina uppgifter genom att logga in (obs! du måste logga in med den e-postadress du intialt fick breven till!) på ditt konto och uppdatera dina uppgifter. Loggar in gör du här, längst ner på sidan där det står ”Ändra en befintlig prenumeration”.
+    Brevet spamklassas på central nivå. Då måste man kontakta er IT för att be dem vitlista Skolportens utskick. Mejla till oss så försöker vi hjälpa till.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
         <div class="well">
 
           <h6 class="section-header">Social</h6>
