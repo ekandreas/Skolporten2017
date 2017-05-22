@@ -6,6 +6,7 @@
   <meta content="Skolporten" name="description">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="css/style.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
 <body class="styleguide">
 
@@ -115,6 +116,21 @@
               <li class="meta-tag tag-info"><a href="">Blå</a></li>
               <li class="meta-tag tag-warning"><a href="">Orange</a></li>
               <li class="meta-tag tag-danger"><a href="">Varning</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="well">
+
+          <h6 class="section-header">Social</h6>
+
+          <div class="social">
+            <ul class="social-links">
+              <li class="social-link rounded"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="social-link rounded"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="social-link rounded"><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              <li class="social-link rounded"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
           </div>
 

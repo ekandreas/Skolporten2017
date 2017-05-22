@@ -196,3 +196,28 @@ ul, li {
 	width: 100%;
 	height: 100%;
 }
+
+.social {
+  .social-links {
+    margin-top: 20px;
+    .social-link {
+      display: inline-block;
+      margin-right: 5px;
+      a {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background: $gray-dark;
+        border-radius: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 19px;
+        &:hover {
+          background: $brand-primary;
+          cursor: pointer;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

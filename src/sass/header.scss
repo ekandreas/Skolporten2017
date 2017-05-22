@@ -124,6 +124,7 @@ header {
       &:hover {color: rgba(255,255,255,1);}
     }
     .navbar-page {
+      padding: 5px 0 0;
       @media (min-width: 990px) {
         float: right;
       }
@@ -149,7 +150,7 @@ header {
   }
   &.level-2 {
     border-top: 2px solid #EBF6FA;
-    padding: $navbar-padding-y $navbar-padding-x 0px;
+    padding: 13px 0 0px;
     flex-direction: row;
     display: none;
     a {
