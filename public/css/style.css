@@ -5997,11 +5997,11 @@ h6,
   color: inherit;
   text-transform: uppercase; }
 
-.article-content h1, .article-content .h1,
-.article-content h2, .article-content .h2,
-.article-content h3, .article-content .h3,
-.article-content h4, .article-content .h4,
-.article-content h5, .article-content .h5 {
+.single .article-content h1, .single .article-content .h1,
+.single .article-content h2, .single .article-content .h2,
+.single .article-content h3, .single .article-content .h3,
+.single .article-content h4, .single .article-content .h4,
+.single .article-content h5, .single .article-content .h5 {
   margin-top: 30px; }
 
 h1, .h1,
