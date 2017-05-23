@@ -6256,6 +6256,10 @@ ul, li {
     padding-top: 0;
     margin-top: 5px; }
 
+@media (max-width: 990px) {
+  .no-scroll {
+    overflow: hidden; } }
+
 header {
   background-color: #fff;
   transition: all 0.4s ease;
@@ -6272,21 +6276,11 @@ header {
       margin-bottom: 30px;
       position: relative; } }
   @media (max-width: 990px) {
-    header.is-sticky {
-      position: absolute !important; }
-      header.is-sticky .navbar-mobile {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: #fff;
-        z-index: 3;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07); }
-      header.is-sticky .level-0 {
-        position: fixed;
-        top: 66px;
-        width: 100%; }
-      header.is-sticky .level-1 {
-        padding-top: 200px; } }
+    header.sticky .collapse {
+      background: transparent; }
+    header.is-collapsed {
+      overflow-y: scroll;
+      height: 100%; } }
 
 .navbar-header {
   padding: 20px 20px 0px; }

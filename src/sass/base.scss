@@ -255,3 +255,9 @@ ul, li {
     margin-top: 5px;
   }
 }
+
+.no-scroll {
+  @media (max-width: 990px) {
+    overflow:hidden;
+  }
+}

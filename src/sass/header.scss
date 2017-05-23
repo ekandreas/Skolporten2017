@@ -15,24 +15,34 @@ header {
     position: relative;
   }
   @media (max-width: 990px) {
-    &.is-sticky {
-      position: absolute !important;
-      .navbar-mobile {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: #fff;
-        z-index: 3;
-        box-shadow: $header-box-shadow;
+    &.sticky {
+
+      .collapse {
+        background: transparent;
       }
-      .level-0 {
-        position: fixed;
-        top: 66px;
-        width: 100%;
-      }
-      .level-1 {
-          padding-top: 200px;
-      }
+
+
+    }
+    &.is-collapsed {
+      overflow-y: scroll;
+      height: 100%;
+      // position: absolute !important;
+      // .navbar-mobile {
+      //   position: fixed;
+      //   top: 0;
+      //   width: 100%;
+      //   background-color: #fff;
+      //   z-index: 3;
+      //   box-shadow: $header-box-shadow;
+      // }
+      // .level-0 {
+      //   position: fixed;
+      //   top: 66px;
+      //   width: 100%;
+      // }
+      // .level-1 {
+      //     padding-top: 200px;
+      // }
     }
   }
 }

@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+  $('.navbar-toggler').click(function() {
+    $('body').toggleClass('no-scroll');
+    $('.header').toggleClass('is-collapsed');
+  });
+
   // Custom
   var stickyToggle = function(sticky, stickyWrapper, scrollElement) {
     var stickyHeight = sticky.outerHeight();
