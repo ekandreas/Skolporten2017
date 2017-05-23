@@ -1,0 +1,27 @@
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block !important;
+  width: 100% !important;
+}
+
+h1::first-letter,
+h2::first-letter,
+h3::first-letter {
+    margin-top: 0;
+}
+
+.navbar-brand {
+  margin-bottom: 30px !important;
+}
+
+.meta-tags, .dropdown, .print, .btn-link, .footer, .news-sidebar {
+  display: none !important;
+}
+
+.date {
+  display: block !important;
+}

@@ -6,6 +6,7 @@
   <meta content="Skolporten" name="description">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/print.css" media="print" />
   </head>
 <body>
 
@@ -23,7 +24,7 @@
             <ul class="meta-tags">
               <li class="meta-tag"><a href="">Intervju</a></li>
             </ul>
-            <a href="#" class="meta-link" target="_blank">2016-12-19 11:09</a>
+            <a href="#" class="meta-link date" target="_blank">2016-12-19 11:09</a>
             <div class="dropdown d-inline">
               <a href="#" class="meta-link dropdown-toggle" target="_blank" data-toggle="dropdown"><img src="css/gfx/icon-share.png"/> Dela</a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -32,7 +33,7 @@
                 <li><a href="#">Dela på LinkedIn</a></li>
               </ul>
             </div>
-            <a href="#" class="meta-link" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
+            <a href="#" class="meta-link print" target="_blank"><img src="css/gfx/icon-print.png"/> Skriv ut</a>
           </div>
 
           <div class="article-content">
